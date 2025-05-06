@@ -1,0 +1,60 @@
+.logo-banner {
+    overflow: hidden;
+    height: 553px;
+    min-width: 100%;
+}
+
+.logo img {
+    min-width: 0;
+    position: relative;
+    width: 545px;
+    height: 248px;
+    left: 211px;
+}
+
+.logo {
+    overflow: hidden;
+    top: 180px;
+    position: relative;
+}
+
+.banner img {
+    min-width: calc(100% + 351px);
+    width: 2623px;
+    height: 1723px;
+    margin-top: -765px;
+    margin-left: -350px;
+    z-index: -10;
+}
+
+@media only screen and (max-width: 1000px) {
+    .logo img {
+        left: calc(50% - 253px);
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .logo img {
+        width: 340px;
+        height: auto;
+        left: calc(50% - 170px);
+        content: url("../IMG/logoweb02.png");
+    }
+    .banner img {
+        margin-left: -1750px;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .logo-banner {
+        height: 275px;
+    }
+    .logo img {
+        height: 91px;
+        width: 200px;
+        left: calc(50% - 100px);
+    }
+    .logo {
+        top: 90px
+    }
+}

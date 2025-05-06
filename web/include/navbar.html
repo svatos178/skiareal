@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skiareál Orlické Záhoří</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    <link rel="stylesheet" href="styles/navbar-style.css">
+    <script src="https://kit.fontawesome.com/e957582ab7.js" crossorigin="anonymous"></script>
+    <!---   <link rel="shortcut icon" href="http://sstatic.net/stackoverflow/img/favicon.ico">    pak na icon webu-->
+
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="navbar">
+            <a class=" navbar-item active-domu" href="index.php">
+                <p class="navbar-text p-domu">Domů</p>
+            </a>
+            <!--- 
+            <a class="navbar-item active-skipass" href="skipass.php">
+                <p class="navbar-text p-skipass">Skipassy</p>
+            </a>-->
+            <a class="navbar-item active-ski-school" href="ski-school.php">
+                <p class="navbar-text p-ski-school">Lyžařská škola</p>
+            </a>
+            <a class="navbar-item active-ubytovani" href="ubytovani.php">
+                <p class="navbar-text p-ubytovani">Ubytování</p>
+            </a>
+            <div class="activity-menu">
+                <a class="navbar-item active-aktivity" href="aktivity.php">
+                    <p class="navbar-text p-aktivity">Aktivity</p>
+                </a>
+                <div class="activity-dropdown">
+                    <ul class="dropdown-menu">
+                        <a href="bezecky-okruh.php" class="dropdown-item"> <img src="ICONS/arrow-right-colored.svg"> Běžecký okruh</a>
+                        <a href="bezecke-trasy.php" class="dropdown-item"> <img src="ICONS/arrow-right-colored.svg"> Běžecké trasy</a>
+                        <!--  <a href="snowpark.php" class="dropdown-item"> <img src="ICONS/arrow-right-colored.svg"> Snowpark</a> -->
+                        <a href="ubytovani.php" class="dropdown-item"> <img src="ICONS/arrow-right-colored.svg"> Ubytování</a>
+                        <a href="ski-school.php" class="dropdown-item"> <img src="ICONS/arrow-right-colored.svg"> Lyžařská škola</a>
+                        <a href="stravovani.php" class="dropdown-item"> <img src="ICONS/arrow-right-colored.svg"> Stravování</a>
+                        <a href="pujcovna.php" class="dropdown-item"> <img src="ICONS/arrow-right-colored.svg"> Půjčovna</a>
+                    </ul>
+                </div>
+            </div>
+            <a class=" navbar-item active-bezecke-trasy" href="bezecke-trasy.php">
+                <p class="navbar-text p-bezecke-trasy">Běžecké trasy</p>
+            </a>
+            <a class="navbar-item" href="#kontakt">
+                <p class="navbar-text">Kontakt</p>
+            </a>
+            <!--  <div class="icons">
+                <?php if (isset($_SESSION["logged"])) {
+                    echo '
+                    <div class="login-btn">
+                        <a class="login-btn" href="nastaveni-uctu.php"><img class="navbar-icon" src="profile-round-1342-svgrepo-com.svg" alt="Login"></a>
+                        <div class="login-dropdown">
+                            <ul class="dropdown-menu">
+                                <a href="nastaveni-uctu.php" class="dropdown-item"> <img src="ICONS/arrow-right-colored.svg"> Nastavení</a>
+                                <a href="objednavky.php" class="dropdown-item"> <img src="ICONS/arrow-right-colored.svg"> Objednávky</a>
+                                <a href="logout.php" class="dropdown-item"> <img src="ICONS/arrow-right-colored.svg"> Odhlásit</a>
+                        </div>
+                    </div>';
+                } else {
+                    echo '
+                    <div class="login-btn">
+                        <a  href="login.php"><img class="navbar-icon" src="profile-round-1342-svgrepo-com.svg" alt="Login"></a>
+                        <div class="login-dropdown">
+                            <ul class="dropdown-menu">
+                                <a href="login.php" class="dropdown-item"> <img src="ICONS/arrow-right-colored.svg"> Přihlášení</a>
+                                <a href="register.php" class="dropdown-item"> <img src="ICONS/arrow-right-colored.svg"> Registrace</a>
+                        </div>
+                    </div>';
+                    
+                }?>
+                <a href="#"><img class="navbar-icon" src="shopping-cart-1135-svgrepo-com.svg" alt="Košík"></a>
+                <a href="logout.php"><img class="navbar-icon" src="flag-for-czechia-svgrepo-com.svg" alt="Jazyk"></a>
+            </div> -->
+        </div>
+
+
+
+        <ul class="menu">
+            <li class="menu-head">
+                <h1 class="skioz-mobile"><a href="index.php">SKIOZ</a></h1><i class="fa-solid fa-bars menu-icon"></i>
+            </li>
+            <li>
+                <h2><a class="active" href="index.php">Domů</a></h2>
+            </li>
+            <!--  <li>
+                <h2><a href="skipass.php">Skipassy</a></h2>
+            </li>-->
+            <li>
+                <h2><a href="ski-school.php">Lyžařská škola</a></h2>
+            </li>
+            <li>
+                <h2><a href="ubytovani.php">Ubytování</a></h2>
+            </li>
+            <li>
+                <h2><a href="aktivity.php">Aktivity</a></h2>
+            </li>
+            <li>
+                <h2><a href="bezecke-trasy.php">Běžecké trasy</a></h2>
+            </li>
+            <li>
+                <h2><a href="#kontakt">Kontakt</a></h2>
+            </li>
+            <!--    <li>
+                <div class="icons">
+                    <a href="#"><img class="navbar-icon" src="profile-round-1342-svgrepo-com.svg" alt="Login"></a>
+                    <a href="#"><img class="navbar-icon" src="shopping-cart-1135-svgrepo-com.svg" alt="Košík"></a>
+                    <a href="#"><img class="navbar-icon" src="flag-for-czechia-svgrepo-com.svg" alt="Jazyk"></a>
+                </div>
+            </li>-->
+        </ul>
+
+        <script>
+         /*   var currentUrl = window.location.href;
+
+
+            if (currentUrl.includes('/index.php')) {
+
+                var newUrl = currentUrl.replace('/index.php', '');
+
+
+                window.history.replaceState({}, '', newUrl);
+            } else if (currentUrl.endsWith('.php')) {
+
+                var newUrl = currentUrl.replace('.php', '');
+
+
+                window.history.replaceState({}, '', newUrl);
+            } */
+
+
+            const menuIcon = document.querySelector('.menu-icon');
+            const menu = document.querySelector('.menu');
+            const default_menu = document.querySelector('nav');
+
+
+            menuIcon.addEventListener('click', function() {
+
+                menu.classList.toggle('slide-down');
+                menuIcon.classList.toggle('slide-up');
+                /* submenu.classList.remove('slide-down2');
+                 last_li.classList.remove('slide-down3');
+                 submenuIcon.classList.remove('rotate');*/
+            });
+
+            /*
+    links.forEach(link => {
+        link.addEventListener('click', function() {
+            menu.classList.remove('slide-down');
+            submenu.classList.remove('slide-down2');
+            last_li.classList.remove('slide-down3');
+        })
+    });
+
+    window.addEventListener('resize', function() {
+        divs.forEach(div =>{
+            if(window.innerWidth <= 768){
+                div.style.top = `calc(100% - ${div.offsetHeight}px)`;
+            }
+        });
+    });
+*/
+
+            var menua = document.querySelector('.activity-menu');
+            var dropdown = document.querySelector('.activity-dropdown');
+
+            menua.addEventListener('mouseover', function() {
+                dropdown.style.display = 'block';
+            });
+
+            menua.addEventListener('mouseout', function() {
+                dropdown.style.display = 'none';
+            });
+
+            dropdown.addEventListener('mouseover', function() {
+                dropdown.style.display = 'block';
+            });
+
+            dropdown.addEventListener('mouseout', function() {
+                dropdown.style.display = 'none';
+            });
+        </script>
+</body>

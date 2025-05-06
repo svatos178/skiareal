@@ -1,0 +1,325 @@
+:root {
+    scroll-behavior: smooth;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+    background-color: #F5F5F7;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+}
+
+.skioz-mobile {
+    text-align: center;
+    width: 100%;
+    margin-right: -30px;
+}
+
+.navbar-icon {
+    width: 34px;
+    height: 34px;
+    padding-top: 31px;
+    padding-right: 15px;
+}
+
+.navbar {
+    background-color: RGBA(198, 166, 113, 0);
+    height: 94px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    z-index: 50;
+    background-color: #ffffff;
+    max-width: 1920px;
+    padding-right: 1px;
+}
+
+@media only screen and (min-width: 1800px) {
+    .navbar {
+        justify-content: flex-start;
+        width: 1669px;
+        padding-left: 251px;
+    }
+}
+
+.navbar-text {
+    color: #c6a671;
+    font-size: 24px;
+    height: fit-content;
+    margin: 0;
+    font-weight: bold;
+}
+
+.navbar-item {
+    height: 95px;
+}
+
+.navbar a {
+    float: left;
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.navbar-item:hover {
+    text-decoration: none;
+    background-color: #c6a671;
+    padding-left: 1px;
+    padding-right: 1px;
+}
+
+.navbar-item:hover .navbar-text {
+    color: white;
+}
+
+.navbar a:hover p {
+    border: 0;
+}
+
+.navbar .icons a:hover {
+    background-color: white;
+}
+
+.navbar a p {
+    position: relative;
+    border-left: 1px solid #E4E8EE;
+    border-right: 1px solid #E4E8EE;
+    padding-left: 55px;
+    padding-right: 55px;
+    padding-top: 10.5px;
+    padding-bottom: 10.5px;
+    margin-top: 24.5px;
+    margin-bottom: 24.5px;
+}
+
+.menu {
+    z-index: 100;
+    display: none;
+    text-align: center;
+    width: 100%;
+    max-width: 500px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    background-color: white;
+    transform: translateY(-100%);
+    transition: transform 1s;
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.slide-down {
+    transform: translateY(0%);
+}
+
+.menu li h2 {
+    margin: 0;
+}
+
+.menu li h2 a {
+    display: block;
+    width: 100%;
+    text-decoration: none;
+    color: #c6a671;
+    height: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.menu li h2 a:hover {
+    background-color: #ddd;
+    text-decoration: none;
+}
+
+.menu-head {
+    position: relative;
+    display: flex;
+    background-color: #c6a671;
+    height: 60px;
+    text-align: end;
+    padding-right: 20px;
+    padding-left: 20px;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+
+.menu-icon {
+    transform: translateY(575%);
+    transition: transform 1s;
+    position: relative;
+    display: flex;
+    font-size: 50px;
+    height: 60px;
+    text-align: end;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    padding-top: 5px;
+}
+
+.menu-icon h1 {
+    transform: translateY(-590%);
+    transition: transform 1s;
+}
+
+.slide-up {
+    transform: translateY(0%);
+}
+
+.slide-up h1 {
+    transform: translateY(0%);
+}
+
+.menu-icon i {
+    color: white;
+    font-size: 50px;
+}
+
+.menu-icon h1 {
+    color: white;
+}
+
+@media only screen and (max-width: 1525px) {
+    .navbar {
+        display: none;
+    }
+    .menu {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 370px) {
+    .menu-head {
+        justify-content: flex-end;
+    }
+}
+
+.navbar .active p {
+    border: 0px;
+}
+
+.wrapper {
+    width: 100%;
+}
+
+@media only screen and (min-width: 1920px) {
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .wrapper {
+        max-width: 1920px;
+    }
+}
+
+.activity-dropdown {
+    position: absolute;
+    top: 93px;
+    z-index: 100;
+    background-color: white;
+    width: 300px;
+    transition: 0.25s;
+    display: none;
+}
+
+.dropdown-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 75px;
+}
+
+.navbar .dropdown-item {
+    color: #c6a671;
+    font-weight: bold;
+    font-size: 22px;
+    padding-bottom: 10px;
+    display: flex;
+}
+
+.navbar .dropdown-item img {
+    position: absolute;
+    left: 40px;
+    opacity: 100;
+    transition: 0.5s;
+}
+
+.navbar .dropdown-item:hover {
+    color: #587095;
+    text-decoration: none;
+}
+
+.navbar .dropdown-item:hover img {
+    opacity: 0;
+    left: 0;
+}
+
+.menu .icons {
+    padding-left: 15px;
+    padding-bottom: 10px;
+}
+
+.menu h1 a {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar a:hover .dropdown-item {
+    background-color: white;
+}
+
+.activity-menu:hover .activity-dropdown {
+    display: flex;
+}
+
+@media (max-width: 1567px) {
+    .p-ski-school {
+        padding-left: 34px !important;
+        padding-right: 34px !important;
+    }
+}
+
+.icons {
+    min-width: 200;
+    padding-left: 52px;
+    display: flex;
+}
+
+.navbar .login-btn {
+    padding-top: 0;
+    width: 49px;
+    position: relative;
+    height: 100%;
+}
+
+.login-dropdown {
+    display: none;
+    position: absolute;
+    top: 93px;
+    left: -52px;
+    z-index: 100;
+    background-color: white;
+    width: 250px;
+    transition: 0.25s;
+}
+
+.navbar .icons .login-btn:hover .login-dropdown {
+    display: flex;
+}

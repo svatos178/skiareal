@@ -1,0 +1,193 @@
+.home-screen {
+    position: relative;
+    height: 1330px;
+    overflow: hidden;
+    padding-bottom: 630px;
+}
+
+.home-screen img {
+    min-width: calc(100% + 352px);
+    position: absolute;
+    width: 2623px;
+    height: 1780px;
+    margin-top: -272px;
+    margin-left: -352px;
+    z-index: -10;
+}
+
+.home-screen .weather img {
+    min-width: 0;
+}
+
+.home-screen .home-logo img {
+    min-width: 0;
+    margin-top: 5px;
+    z-index: 10;
+    width: 507px;
+    height: 507px;
+    position: relative;
+    left: 562px;
+}
+
+.tables {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 1178px;
+    position: relative;
+}
+
+.funguje {
+    width: 441px;
+    height: 736px;
+    background-color: #C6A671;
+    color: white;
+    text-align: center;
+}
+
+.funguje h1 {
+    margin: 0;
+    padding-top: 25px;
+    padding-bottom: 31px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.funguje h2 {
+    border-top: 2px solid #E3C592;
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 7px;
+    padding-top: 32px;
+}
+
+.funguje p {
+    margin: 0;
+    font-size: 22px;
+    font-weight: 300;
+    font-style: italic;
+    padding-left: 45px;
+    padding-right: 45px;
+}
+
+.prices {
+    z-index: 5;
+    display: flex;
+    overflow: hidden;
+    align-content: flex-end;
+    flex-wrap: wrap;
+}
+
+.prices-table {
+    width: 567px;
+    z-index: 8;
+    background-color: #c6a671;
+}
+
+.prices-table table thead td {
+    height: 102px;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.prices-table table th {
+    padding: 0px;
+    position: relative;
+    width: 45%;
+    text-align: center;
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+    border-top: 1px solid #E3C592;
+}
+
+.prices-table table td {
+    padding: 0px;
+    height: 104px;
+    position: relative;
+    text-align: center;
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+    border-top: 1px solid #E3C592;
+    border-left: 1px solid #E3C592;
+}
+
+.prices-table table td p {
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 300;
+    margin: 0;
+    top: calc(50% + 15px);
+}
+
+.navbar a.active-skipass {
+    background-color: #c6a671 !important;
+    font-size: 24px;
+}
+
+.p-skipass {
+    color: white;
+}
+
+.prices-table table th p {
+    width: 100%;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 300;
+    margin: 0;
+    top: calc(50% + 15px);
+}
+
+.prices-table table {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.prices-img {
+    width: 1102px;
+    overflow: hidden;
+    margin-top: -630px;
+    margin-left: -620px;
+}
+
+.prazdny {
+    width: 319px;
+    background-color: #C6A671;
+    margin-left: -2px;
+    overflow: hidden;
+}
+
+@media only screen and (max-width: 1325px) {
+    .prazdny {
+        position: absolute;
+        height: 856px;
+        bottom: 0;
+        right: 0;
+    }
+}
+
+@media only screen and (max-width: 1007px) {
+    .prazdny {
+        display: none;
+    }
+    .funguje {
+        width: 567px;
+        margin-bottom: -2px;
+    }
+    .home-screen {
+        padding-bottom: 800px;
+    }
+    .home-screen .home-logo img {
+        left: calc(50% + 100px);
+    }
+}

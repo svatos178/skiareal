@@ -1,0 +1,506 @@
+.pripravujeme-banner {
+    position: relative;
+    height: 985px;
+    overflow: hidden;
+}
+
+.pripravujeme-banner img {
+    min-width: calc(100% + 352px);
+    position: absolute;
+    width: 1920px;
+    height: 985px;
+    z-index: -10;
+}
+
+.pripravujeme-banner .home-logo img {
+    min-width: 0;
+    margin-top: 5px;
+    z-index: 10;
+    width: 623px;
+    height: 349px;
+    position: relative;
+    left: calc(50% - 370px);
+    top: 230px;
+}
+
+.skiOZ {
+    height: 336px !important;
+    width: 741px !important;
+    display: block !important;
+}
+
+.pripravujeme-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: -224px;
+}
+
+.left-part {
+    display: flex;
+    flex-direction: column;
+    max-width: 709px;
+    width: 100%;
+}
+
+.left-part img {
+    max-width: 709px;
+    height: 599px;
+}
+
+.left-part h1 {
+    font-size: 75px;
+    font-weight: bold;
+}
+
+.left-part .vitejte {
+    background-color: white;
+    padding-left: 50px;
+    padding-right: 32px;
+}
+
+.left-part .vitejte h1 {
+    color: #587095;
+    font-weight: bold;
+    margin-top: 38px;
+    margin-bottom: 46px;
+}
+
+.left-part .vitejte p {
+    font-size: 28px;
+    color: #587095;
+}
+
+.text-blue {
+    color: #587095 !important;
+    padding-left: 30px;
+}
+
+.tesit {
+    padding-left: 50px;
+    padding-right: 32px;
+    background-color: #587095;
+    height: 962px;
+}
+
+.tesit h1 {
+    color: white;
+}
+
+.tesit ul {
+    list-style: "– ";
+    color: white;
+    padding-left: 30px;
+}
+
+.numbers {
+    position: relative;
+    color: #C6A671;
+    font-size: 30px;
+    padding-right: 15px;
+    font-weight: bold;
+}
+
+.numbers1 {
+    margin-left: -72px;
+}
+
+.numbers2 {
+    margin-left: -70px;
+}
+
+.numbers3 {
+    margin-left: -70px;
+}
+
+.numbers4 {
+    margin-left: -74px;
+}
+
+.numbers5 {
+    margin-left: -70px;
+}
+
+.numbers6 {
+    margin-left: -72px;
+}
+
+.numbers7 {
+    margin-left: -70px;
+}
+
+.numbers8 {
+    margin-left: -72px;
+}
+
+.numbers9 {
+    margin-left: -71px;
+}
+
+.tesit ul li {
+    position: relative;
+    padding-bottom: 9px;
+    font-size: 28px;
+}
+
+.tesit ul li::before {
+    position: absolute;
+    left: -17px;
+    color: #C6A671;
+}
+
+.right-part {
+    width: 100%;
+    max-width: 709px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    position: relative;
+}
+
+.stavime {
+    width: calc(100% - 70px);
+    height: 497px;
+    background-color: #C6A671;
+    padding-left: 50px;
+    padding-right: 20px;
+}
+
+.stavime h1 {
+    margin-top: 38px;
+    margin-bottom: 46px;
+    font-size: 80px;
+    color: white;
+    font-weight: bold;
+}
+
+.stavime p {
+    font-size: 28px;
+    color: white;
+}
+
+.right-part img {
+    max-width: 709px;
+    height: 1261px;
+}
+
+.buttons img {
+    width: 34px;
+    height: 34px;
+}
+
+.buttons img:first-child {
+    transform: scaleX(-1);
+}
+
+.buttons {
+    z-index: 5;
+    background-color: #C6A671;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    width: 283px;
+    height: 108px;
+    justify-content: center;
+    position: absolute;
+    left: 213px;
+    bottom: 70px;
+}
+
+.buttons p {
+    color: #fff;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.buttons .menu-first-number {
+    color: #F8D8A3;
+    width: 50px;
+}
+
+.buttons .menu-first-number p {
+    color: #F8D8A3;
+}
+
+.rotatex {
+    transform: scaleX(1) !important;
+}
+
+.zindex {
+    z-index: 5;
+}
+
+.transition-image {
+    height: 1261px;
+    width: 100%;
+    max-width: 709px;
+}
+
+.transition-image img {
+    width: 100%;
+    max-width: 709px;
+    z-index: 0;
+    position: absolute;
+    opacity: 1;
+    transition: opacity 0.25s ease-in-out;
+}
+
+.arrow-right {
+    padding-left: 10px;
+}
+
+.arrow-left {
+    padding-right: 10px;
+}
+
+.rotatex {
+    transform: scaleX(1) !important;
+}
+
+.transition-image .visible {
+    z-index: 1;
+    opacity: 0;
+    /* Start with fully transparent */
+}
+
+.sky-time {
+    display: grid;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.center {
+    text-align: center;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.center p {
+    margin: 0;
+}
+
+.px55 {
+    font-size: 55px;
+    margin-top: 11%;
+    font-weight: bold;
+    text-align: left;
+}
+
+.px40 {
+    font-size: 40px;
+    text-align: left;
+}
+
+.white {
+    width: 709px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    color: #587095;
+    height: 282px;
+    text-align: center;
+}
+
+.blue {
+    width: 709px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #587095;
+    color: white;
+    height: 282px;
+}
+
+.blue-white {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.provozni-doba {
+    width: 100%;
+    font-size: 70px;
+    color: #587095;
+    font-weight: bold;
+    padding-bottom: 46px;
+    text-align: left;
+    padding-top: 122px;
+}
+
+@media only screen and (max-width: 1417px) {
+    .provozni-doba {
+        padding-bottom: 0;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 709px) {
+    .pripravujeme-banner {
+        height: 700px;
+    }
+    .left-part img {
+        overflow: hidden !important;
+        height: 400px;
+    }
+    .pripravujeme-info {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .buttons {
+        width: 200px;
+        height: 70px;
+        left: calc(50% - 100px);
+        padding-left: 0;
+        padding-right: 0;
+        bottom: 40px;
+    }
+    .buttons p {
+        font-size: 26px;
+    }
+    .buttons .menu-first-number {
+        width: 35px;
+    }
+    .tesit {
+        height: auto;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    .left-part .vitejte {
+        padding-left: 25px;
+        padding-right: 25px;
+        padding-bottom: 10px;
+    }
+    .tesit h1 {
+        font-size: 50px;
+        margin-top: 30px !important;
+        margin-bottom: 30px !important;
+    }
+    .tesit ul li {
+        font-size: 20px;
+    }
+    .vitejte h1 {
+        margin-top: 30px !important;
+        margin-bottom: 30px !important;
+    }
+    .stavime {
+        width: calc(100% - 50px);
+        height: auto;
+        padding-bottom: 10px;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    .stavime h1 {
+        font-size: 42px;
+    }
+    .transition-image {
+        height: 600px;
+    }
+    .transition-image img {
+        height: 600px;
+    }
+    .left-part h1 {
+        font-size: 40px;
+    }
+    .left-part .vitejte p {
+        font-size: 20px;
+    }
+    .provozni-doba p {
+        font-size: 30px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .numbers {
+        font-size: 24px;
+        margin-left: -53px;
+        padding-right: 10px;
+    }
+    .text-blue {
+        padding-left: 10px !important;
+    }
+    .skiOZ {
+        height: 130px !important;
+        width: 300px !important;
+        left: calc(50% - 150px) !important;
+    }
+    .provozni-doba {
+        font-size: 22px !important;
+        text-align: left !important;
+        padding-top: 40px !important;
+        padding-bottom: 20px !important;
+    }
+    .left-part .vitejte p {
+        font-size: 21px !important;
+    }
+    .left-part h1 {
+        font-size: 40px !important;
+    }
+    .footer-logo {
+        width: 102px !important;
+        height: 45px !important;
+        margin-top: -15px !important;
+    }
+    .copyright {
+        font-size: 14px !important;
+    }
+    .footer-icon {
+        height: 12px;
+        padding-right: 0px !important;
+        padding-left: 6px !important;
+        margin-top: -10px !important;
+    }
+    .px55 {
+        font-size: 20px !important;
+        padding-left: 10px !important;
+    }
+    .px40 {
+        font-size: 15px !important;
+        padding-left: 10px !important;
+    }
+    .center {
+        display: flex !important;
+        flex-wrap: wrap !important;
+    }
+    .sky-time {
+        width: 100% !important;
+    }
+    .blue-white {
+        display: flex !important;
+        width: 100% !important;
+    }
+    .white,
+    .blue {
+        width: 50% !important;
+        height: 140px !important;
+    }
+    .kontakt-title {
+        padding-left: 0px !important;
+        padding-bottom: 15px !important;
+        font-size: 30px !important;
+        margin-bottom: 0 !important;
+    }
+    .home-background {
+        margin-left: 0 !important;
+    }
+    .home-background {
+        width: 1440px !important;
+        height: 738px !important;
+        left: -700px;
+    }
+    .vitejte {
+        margin-top: 120px;
+    }
+    .pripravujeme-banner .home-logo img {
+        min-width: 0;
+        margin-top: 5px;
+        z-index: 10;
+        width: 330px;
+        height: 150px;
+        position: relative;
+        left: calc(50% - 165px);
+        top: 230px;
+    }
+}

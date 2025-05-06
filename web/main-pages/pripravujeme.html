@@ -1,0 +1,163 @@
+<link rel="stylesheet" href="styles/pripravujeme-style.css">
+<script type="text/javascript">
+    document.title = "Připravujeme";
+</script>
+
+<body>
+    <main>
+        <section class="pripravujeme-banner">
+            <div class="home-backgroud">
+                <img src="IMG/upravene/pripravujeme-banner.png" alt="home-backgroud">
+            </div>
+            <div class="home-logo">
+                <img alt="logoweb" src="IMG/logoweb.png">
+            </div>
+        </section>
+        <section class="pripravujeme-info">
+            <div class="left-part">
+                <div class="vitejte">
+                    <h1>
+                        Vítejte!
+                    </h1>
+                    <p>
+                        Ski areál Orlické Záhoří bude ideální místo pro rodiny s dětmi a všechny, kteří mají rádi pohodové lyžování. Sjezdovka bude mírná, ale dostatečně široká, dlouhá 1,7 kilometru. Díky novému výkonnému systému zasněžování, budeme mít na sjezdovce dostatek
+                        sněhu téměř v každém počasí. Parkoviště bude zdarma přímo pod lanovkou. Ohřát se a posilnit se budete moct v občerstvení přímo u lanovky. Děti nebo lyžaře začátečníky budete moct svěřit našim instruktorům.
+                    </p>
+                </div>
+                <div class="tesit">
+                    <h1>
+                        Na co se těšit?
+                    </h1>
+                    <ul>
+                        <li>
+                            Délka sjezdovky 1,7 Km
+                        </li>
+                        <li>Čtyřmístná lanovka
+                        </li>
+                        <li>Parkování zdarma přímo pod lanovkou
+                        </li>
+                        <li>Možnost nákupu online skipasů předem se slevou a bez front
+                        </li>
+                        <li>Profesionální ski/snb škola
+                        </li>
+                        <li>Pravidelně udržovaný snowpark
+                        </li>
+                        <li>Občerstvení přímo pod lanovkou
+                        </li>
+                        <li>Pravidelně udržovaný běžecký okruh přímo pod lanovkou
+                        </li>
+                        <li>Napojení na hlavní hřebenovou běžeckou magistrálu s 200 km udržovaných tratí
+                        </li>
+                    </ul>
+                </div>
+                <img src="IMG/Nahrano_11_4_2023_v_19_07_41/IMG_20221011_143459.jpg">
+
+            </div>
+            <div class="right-part">
+                <div class="stavime">
+                    <h1>Stavíme s profíkama
+                    </h1>
+                    <p>Stavbu zajišťuje firma s mnoho letými zkušenostmi v oboru. Zde si můžete prohlédnout pár fotek ze stavby.
+                    </p>
+                </div>
+                <div class="transition-image" id="transition-image">
+                    <img src="IMG/Nahrano_11_4_2023_v_19_07_41/IMG_20221011_143459.jpg">
+                </div>
+                <div class="buttons">
+                    <img onclick="previous()" class="zindex" src="ICONS/arrow-right-colored-light.svg">
+                    <p id="cislo-slidu" class="menu-first-number">01</p>
+                    <p id="pocet-slidu">/03</p>
+                    <img onclick="next()" class="rotatex" src="ICONS/arrow-right-colored-light.svg" id="nextSlide">
+                </div>
+            </div>
+
+            <script>
+                const images = [
+                    "IMG/Nahrano_11_4_2023_v_19_07_41/IMG_20220824_132423.jpg",
+                    "IMG/upravene/stavba2.png",
+                    "IMG/Nahrano_11_4_2023_v_19_07_41/IMG_20220824_135204.jpg."
+                ];
+
+                const slide = [
+                    "01",
+                    "02",
+                    "03"
+                ]
+
+                const classImg = [
+                    "classImg1",
+                    "classImg2",
+                    "classImg3"
+                ]
+
+                let currentIndex = 0;
+                let intervalId;
+
+
+
+                function next() {
+                    currentIndex++;
+                    if (currentIndex >= images.length) currentIndex = 0;
+                    updateContent();
+                    clearInterval(intervalId);
+                    intervalId = setInterval(next, 6000);
+
+                }
+
+                function previous() {
+                    currentIndex--;
+                    if (currentIndex < 0) currentIndex = images.length - 1;
+                    updateContent();
+                    clearInterval(intervalId);
+                    intervalId = setInterval(next, 6000);
+
+
+                }
+
+                function updateContent() {
+
+                    document.getElementById("transition-image").innerHTML = "<img src='" + images[currentIndex] + "' class='" + classImg[currentIndex] + "'>" + document.getElementById("transition-image").innerHTML;
+                    let curr_img = document.getElementById("transition-image").querySelectorAll("img")[1];
+
+
+                    setTimeout(() => {
+                        curr_img.classList.add("visible");
+                    }, 0);
+
+                    setTimeout(() => {
+                        document.getElementById("transition-image").innerHTML = "<img src='" + images[currentIndex] + "' class='" + classImg[currentIndex] + "'>";
+                    }, 250);
+
+
+                    document.getElementById("cislo-slidu").innerHTML =
+                        "<p>" + slide[currentIndex] + "</p>";
+                }
+                updateContent();
+
+                intervalId = setInterval(next, 6000);
+            </script>
+        </section>
+
+        <section>
+            <div class="center">
+
+                <div class="sky-time">
+                    <div class="provozni-doba">
+                        <p>Předběžná provozní doba</p>
+                    </div>
+                    <div class="blue-white">
+                        <div class="white">
+                            <!--pod 500px = bude potreba break point a upravit-->
+                            <p class="px55">Denní lyžování</p>
+                            <p class="px40">pondělí-neděle 9:00-16:00 hod</p>
+                        </div>
+                        <div class="blue">
+                            <p class="px55">Večerní lyžování</p>
+                            <p class="px40">Pro vás připravujeme</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </main>

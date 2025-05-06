@@ -1,0 +1,298 @@
+    .header {
+        color: #587095;
+        font-size: 80px;
+        font-weight: bold;
+        padding-bottom: 45px;
+        padding-top: 45px;
+        margin: 0;
+        padding-left: 13vw;
+    }
+    
+    .info {
+        margin: 0;
+        font-weight: 500;
+        font-size: 28px;
+        color: #587095;
+        padding-left: 13vw;
+        padding-right: 13vw;
+    }
+    
+    .center {
+        text-align: center;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .center p {
+        margin: 0;
+    }
+    
+    .text-bold {
+        font-weight: bold;
+    }
+    
+    .px55 {
+        font-size: 55px;
+        margin-top: 11%;
+        font-weight: 600;
+        text-align: left;
+        padding-left: 50px;
+    }
+    
+    .navbar a.active-aktivity {
+        background-color: #c6a671 !important;
+        font-size: 24px;
+    }
+    
+    .p-aktivity {
+        color: white;
+    }
+    
+    .px40 {
+        font-size: 40px;
+        text-align: left;
+        padding-left: 50px;
+    }
+    
+    .white {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: white;
+        color: #587095;
+        width: 709px;
+        height: 282px;
+    }
+    
+    .blue {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: #C6A671;
+        color: white;
+        width: 709px;
+        height: 282px;
+    }
+    
+    .blue-white {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .sky-time {
+        display: grid;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    
+    .provozni-doba {
+        width: 100%;
+        font-size: 70px;
+        color: #587095;
+        font-weight: bold;
+        padding-bottom: 60px;
+        text-align: left;
+        padding-top: 45px;
+    }
+    
+    .provozni-doba p {
+        padding-left: 13vw;
+        padding-right: 13vw;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    
+    .okruh-img {
+        padding-left: 13vw;
+        padding-right: 13vw;
+        margin-top: 56px;
+    }
+    
+    .okruh-img img {
+        width: 100%;
+    }
+    
+    .blue-white,
+    .sky-time {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .areal {
+        padding-top: 50px;
+    }
+    
+    @media only screen and (max-width: 600px) {
+        .header,
+        .info,
+        .provozni-doba,
+        .px55,
+        .blue,
+        .white {
+            font-size: 1.25rem;
+        }
+        .areal {
+            padding-top: 20px;
+        }
+        .blue,
+        .white {
+            width: 100%;
+            height: auto;
+        }
+        .sky-time {
+            flex-direction: column;
+        }
+    }
+    
+    @media only screen and (min-width: 601px) and (max-width: 1024px) {
+        .info,
+        .blue,
+        .white {
+            font-size: 1.5rem;
+        }
+        .blue,
+        .white {
+            height: 150px;
+            width: 100%;
+        }
+        .header,
+        .provozni-doba {
+            font-size: 56px;
+        }
+        .px55 {
+            font-size: 2.5rem;
+        }
+        .px40 {
+            font-size: 1.60rem;
+        }
+        .provozni-doba {
+            padding-top: 45px;
+            padding-bottom: 45px;
+        }
+        .px40,
+        .px55 {
+            padding-right: 50px;
+        }
+        .blue-white {
+            justify-content: start;
+            padding-left: 13vw;
+            padding-right: 13vw;
+        }
+    }
+    
+    @media only screen and (max-width: 1600px) {
+        .blue-white {
+            justify-content: start;
+            padding-left: 13vw;
+            padding-right: 13vw;
+        }
+        .blue,
+        .white {
+            width: 100%;
+        }
+    }
+    
+    @media only screen and (min-width: 1601px) and (max-width:1920px) {
+        .sky-time {
+            justify-content: start;
+            padding-left: 13vw;
+            padding-right: 13vw;
+        }
+        .px40,
+        .px55 {
+            padding-right: 50px;
+        }
+        .blue,
+        .white {
+            width: 36.927vw;
+        }
+        .px40 {
+            font-size: 36px;
+        }
+    }
+    
+    @media only screen and (min-width: 801px) and (max-width: 1024px) {
+        .px55 {
+            font-size: 2.75rem;
+        }
+        .px40 {
+            font-size: 2.25rem;
+        }
+    }
+    
+    @media only screen and (max-width: 600px) {
+        .header {
+            font-size: 30px;
+            padding-left: 20px;
+            padding-right: 20px;
+            padding-bottom: 20px;
+            padding-top: 10px;
+        }
+        .info {
+            font-size: 14px;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+        .provozni-doba {
+            font-size: 24px;
+            text-align: left;
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+        .px55 {
+            font-size: 25px;
+            padding-left: 20px;
+        }
+        .blue,
+        .white {
+            height: 100px;
+            width: 100%;
+        }
+        .blue-white {
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+        .provozni-doba p {
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+        .px40 {
+            font-size: 20px;
+            padding-left: 20px;
+        }
+        .okruh-img {
+            margin-top: 20px;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+    }
+    
+    @media only screen and (min-width: 1920px) {
+        .header {
+            padding-left: 251px;
+        }
+        .info,
+        .provozni-doba p {
+            padding-left: 251px;
+            padding-right: 249px;
+        }
+        .sky-time {
+            display: block;
+            padding-left: 251px;
+        }
+        .blue-white {
+            justify-content: start;
+        }
+        .okruh-img {
+            padding-left: 251px;
+            padding-right: 249px;
+        }
+        .okruh-img img {
+            width: 1420.8px;
+        }
+    }

@@ -1,0 +1,58 @@
+<link rel="stylesheet" href="styles/objednavky-style.css">
+<script type="text/javascript">
+    document.title = "Registrace";
+</script>
+<section>
+    <h1 class="header">Objednávky
+    </h1>
+
+    <form method="post" action="objednavky.php">
+
+        <div class="text-info">
+
+            <input type="search" class="login-box" name="search" required> <label for="email" class="vyhledat"> VYHLEDAT
+            </label>
+            <label class="order-by">ŘADIT DLE:</label>
+        </div>
+        <div class="text-info2">
+            <div class="table-container">
+                <table>
+                    <tr class="nadpis">
+                        <th>DATUM:</th>
+                        <th>Č.OBJEDNÁVKY:</th>
+                        <th>ČÁSTKA:</th>
+                        <th>ČAS ODBAVENÍ:</th>
+                        <th>Detail</th>
+                    </tr>
+
+                    <?php 
+                    if($data != null){
+                        foreach ($data as $key => $value) {
+                            echo '<tr>
+                                <td>', date("d. m. Y", strtotime($value[0])), '</td>
+                                <td>', $value[1], '</td>
+                                <td>', $value[2], '</td>
+                                <td>', date("d. m. Y", strtotime($value[3])), '</td>
+                                <td> <a class="detail" href="objednavka.php?cislo=',$value[1],'"> <img src="ICONS/arrow-right-colored.svg"></a> </td>
+                            </tr>';
+                        }
+                    }else{
+                        echo '<tr>
+                            <td>...</td>
+                            <td>...</td>
+                            <td>...</td>
+                            <td>...</td>
+                            <td>...</td>
+                        </tr>';
+                    }
+                    ?>
+
+
+                </table>
+            </div>
+        </div>
+
+
+    </form>
+
+</section>

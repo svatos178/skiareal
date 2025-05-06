@@ -1,0 +1,475 @@
+.activity-page h1 {
+    color: #587095;
+    font-size: 80px;
+    font-weight: bold;
+    padding-bottom: 45px;
+    padding-top: 45px;
+    margin: 0;
+    padding-left: 13vw;
+}
+
+.activity-page h3 {
+    color: #587095;
+    font-size: 40px;
+    font-weight: bold;
+    padding-bottom: 45px;
+    padding-top: 45px;
+    margin: 0;
+    padding-left: 13vw;
+}
+
+.activity-page-paragraph {
+    margin: 0;
+    font-weight: 500px;
+    font-size: 28px;
+    color: #587095;
+    padding-left: 13vw;
+    padding-right: 13vw;
+}
+
+.activity-grid {
+    margin-top: 45px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-left: 6.5vw;
+    padding-right: 6.5vw;
+}
+
+@media only screen and (min-width: 1920px) {
+    .activity-page h1,
+    .activity-page-paragraph,
+    .activity-page h3 {
+        padding-left: 251px;
+        padding-right: 245px;
+    }
+    .activity-grid {
+        justify-content: space-between;
+        padding-left: 251px;
+        padding-right: 245px;
+    }
+}
+
+.navbar a.active-aktivity {
+    background-color: #c6a671 !important;
+    font-size: 24px;
+}
+
+.p-aktivity {
+    color: white;
+}
+
+.activity-grid-cell {
+    margin-right: 50px;
+    position: relative;
+    overflow: hidden;
+    width: 424px;
+    height: 544px;
+    margin-bottom: 46px;
+    padding-right: 0;
+}
+
+.grid-cell-img {
+    height: 250px;
+    overflow: hidden;
+}
+
+.stravovani {
+    width: 600px;
+    height: 250px;
+    margin-left: -100px;
+}
+
+.snowpark {
+    height: 400px;
+    width: 500px;
+    margin-top: -87px;
+    margin-left: -1px;
+}
+
+.okruh {
+    width: 450px;
+    margin-top: -2px;
+    margin-left: -23px;
+}
+
+.chata {
+    width: 600px;
+    height: 250px;
+    margin-left: -100px;
+}
+
+.puvod {
+    width: 424px;
+    height: 250px;
+}
+
+.grid-cell-text {
+    position: absolute;
+    color: #ffffff;
+    background-color: #C6A671;
+    width: 424px;
+    height: 337px;
+}
+
+.grid-cell-text h2 {
+    font-size: 34px;
+    font-weight: bold;
+    margin-top: 38px;
+    margin-left: 38px;
+    margin-bottom: 12px;
+}
+
+.grid-cell-text p {
+    color: #ffffff;
+    margin-left: 38px;
+    font-size: 24px;
+    margin-right: 37px;
+}
+
+@media only screen and (max-width: 1635px) {
+    .activity-grid-cell {
+        justify-content: space-between;
+    }
+    .activity-grid {
+        padding-left: 13vw;
+        padding-right: 13vw;
+    }
+}
+
+@media only screen and (max-width: 1282px) {
+    .activity-grid-cell {
+        width: 400px;
+    }
+    .activity-grid {
+        padding-left: 6vw;
+        padding-right: 6vw;
+    }
+}
+
+@media only screen and (min-width: 801px) and (max-width: 1024px) {
+    .activity-grid-cell {
+        width: 45%;
+        margin-right: 20px;
+        height: 380px;
+        margin-bottom: 30px;
+    }
+    .activity-grid {
+        padding-left: 3.5vw;
+        padding-right: 3.5vw;
+    }
+    .grid-cell-text {
+        height: auto;
+        padding-bottom: 24px;
+        width: fit-content;
+    }
+    .grid-cell-text p {
+        margin: 15px;
+        margin-left: 20px;
+        font-size: 20px;
+    }
+    .grid-cell-text h2 {
+        margin-left: 20px;
+        margin-top: 15px;
+        margin-bottom: 10px;
+        font-size: 30px;
+    }
+    .activity-page h1 {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+    .activity-page h3 {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+    .grid-cell-img {
+        height: 180px;
+    }
+    .stravovani {
+        width: 540px;
+        height: 200px;
+        margin-left: -63px;
+    }
+    .snowpark {
+        height: 300px;
+        width: 430px;
+        margin-top: -78px;
+        margin-left: -3px;
+    }
+    .okruh {
+        width: 450px;
+        margin-top: -44px;
+        margin-left: -15px;
+    }
+    .puvod {
+        width: 434px;
+        height: 250px;
+        margin-top: -52px;
+        margin-left: -5px;
+    }
+    .box {
+        width: 434px;
+        height: 250px;
+        margin-top: -17px;
+    }
+    .activity-grid {
+        margin-top: 30px;
+    }
+}
+
+@media only screen and (min-width: 801px) and (max-width: 900px) {
+    .puvod {
+        width: 434px;
+        height: 250px;
+        margin-top: -52px;
+        margin-left: -50px;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 800px) {
+    .activity-grid {
+        margin-top: 20px;
+    }
+    .activity-grid-cell {
+        width: 45%;
+        margin-right: 10px;
+        height: 340px;
+        margin-bottom: 30px;
+    }
+    .activity-page h1 {
+        font-size: 60px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .activity-page-paragraph {
+        font-size: 24px;
+    }
+    .activity-grid {
+        padding-left: 2.5vw;
+        padding-right: 2.5vw;
+    }
+    .grid-cell-text {
+        height: auto;
+        padding-bottom: 12px;
+        width: fit-content;
+    }
+    .grid-cell-text p {
+        margin: 15px;
+        margin-left: 15px;
+        font-size: 16px;
+    }
+    .grid-cell-text h2 {
+        margin-left: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 28px;
+    }
+    .activity-page h1 {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .activity-page h3 {
+        padding-top: 15px;
+        padding-bottom: 15px;
+        font-size: 30px;
+    }
+    .grid-cell-img {
+        height: 150px;
+    }
+    .stravovani {
+        width: 400px;
+        height: 200px;
+        margin-left: -47px;
+    }
+    .snowpark {
+        height: 250px;
+        width: 400px;
+        margin-top: -60px;
+        margin-left: -13px;
+    }
+    .okruh {
+        width: 350px;
+        margin-top: -35px;
+        margin-left: -7px;
+    }
+    .puvod {
+        width: 330px;
+        margin-top: -60px;
+        margin-left: 5px;
+    }
+    .box {
+        width: 350px;
+        height: 218px;
+        margin-top: -22px;
+        margin-left: -11px;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 700px) {
+    .okruh {
+        width: 309px;
+        margin-top: -20px;
+        margin-left: -9px;
+    }
+    .puvod {
+        width: 330px;
+        margin-top: -60px;
+        margin-left: -20px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .activity-page h1 {
+        font-size: 40px;
+        padding-left: 0px;
+        padding-bottom: 10px;
+    }
+    .activity-page h3 {
+        padding-top: 15px;
+        padding-bottom: 15px;
+        font-size: 20px;
+        padding-left: 0;
+    }
+    .activity-grid-cell {
+        width: 45%;
+        margin-right: 0;
+        height: 500px;
+    }
+    .activity-page {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .activity-grid {
+        padding: 0;
+        margin-top: 10px;
+    }
+    .activity-page-paragraph {
+        padding: 0px;
+        font-size: 16px;
+    }
+    .activity-grid-cell {
+        width: 45%;
+        margin-right: 10px;
+        height: 280px;
+        margin-bottom: 30px;
+    }
+    .activity-page h1 {
+        font-size: 60px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .activity-page-paragraph {
+        font-size: 24px;
+    }
+    .activity-grid {
+        padding-left: 2.5vw;
+        padding-right: 2.5vw;
+    }
+    .grid-cell-text {
+        height: auto;
+        padding-bottom: 12px;
+        width: fit-content;
+    }
+    .grid-cell-text p {
+        margin: 10px;
+        margin-top: 0px;
+        font-size: 14px;
+    }
+    .grid-cell-text h2 {
+        margin: 10px;
+        font-size: 22px;
+    }
+    .activity-page h1 {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .activity-page h3 {
+        padding-top: 15px;
+        padding-bottom: 15px;
+        font-size: 30px;
+    }
+    .grid-cell-img {
+        height: 120px;
+    }
+    .stravovani {
+        width: 246px;
+        height: 128px;
+        margin-left: -6px;
+    }
+    .snowpark {
+        height: 145px;
+        width: 252px;
+        margin-top: -22px;
+        margin-left: -12px;
+    }
+    .okruh {
+        width: 250px;
+        height: 120px;
+        margin-top: 0;
+        margin-left: -10px;
+    }
+    .puvod {
+        width: 250px;
+        height: 166px;
+        margin-top: -34px;
+        margin-left: -9px;
+    }
+    .box {
+        width: 244px;
+        height: 158px;
+        margin-top: -12px;
+        margin-left: -1px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .activity-page h1 {
+        font-size: 45px;
+    }
+    .activity-page-paragraph {
+        font-size: 22px;
+    }
+    .activity-page h3 {
+        font-size: 28px;
+    }
+    .okruh {
+        width: 218px;
+        height: 120px;
+        margin-top: 0;
+        margin-left: -21px;
+    }
+    .grid-cell-text p {
+        font-size: 13px;
+        margin-bottom: 5px;
+    }
+    .puvod {
+        width: 250px;
+        height: 166px;
+        margin-top: -40px;
+        margin-left: -51px;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .okruh {
+        margin-left: -41px;
+    }
+    .box {
+        width: 221px;
+        height: 132px;
+        margin-top: 1px;
+        margin-left: -37px;
+    }
+    .puvod {
+        width: 225px;
+        height: 148px;
+        margin-top: -26px;
+        margin-left: -47px;
+    }
+    .stravovani {
+        margin-left: -35px;
+    }
+    .grid-cell-text p {
+        font-size: 12px;
+    }
+}

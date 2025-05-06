@@ -1,0 +1,571 @@
+    .home-screen {
+        position: relative;
+        height: 1330px;
+        overflow: hidden;
+        padding-bottom: 630px;
+    }
+    
+    .home-screen img {
+        min-width: calc(100% + 352px);
+        position: absolute;
+        width: 2623px;
+        height: 1780px;
+        margin-top: -272px;
+        margin-left: -352px;
+        right: -305px;
+        z-index: -10;
+    }
+    
+    .weather-text {
+        color: #587095;
+        font-size: 22px;
+        position: absolute;
+    }
+    
+    .home-screen .weather img {
+        min-width: 0;
+    }
+    
+    .actual-weather p img {
+        right: revert-layer;
+    }
+    
+    .home-screen .prices-img img {
+        min-width: calc(100% + 352px);
+        position: absolute;
+        width: 3148px;
+        height: 2136px;
+        margin-top: -535px;
+        margin-left: -396px;
+        z-index: -10;
+    }
+    
+    .navbar a.active-domu {
+        background-color: #c6a671 !important;
+        font-size: 24px;
+    }
+    
+    .p-domu {
+        color: white;
+    }
+    
+    .home-screen .home-logo img {
+        min-width: 0;
+        margin-top: 171px;
+        z-index: 10;
+        width: 700px;
+        height: 322px;
+        position: relative;
+        left: 601px;
+    }
+    
+    @media only screen and (max-width: 1194px) {
+        .home-screen .home-logo img {
+            min-width: 0;
+            margin-top: 171px;
+            z-index: 10;
+            width: 700px;
+            height: auto;
+            position: relative;
+            left: 50%;
+        }
+    }
+    
+    .weather {
+        width: 300px;
+        height: 538px;
+        z-index: 10;
+        background-color: white;
+        position: relative;
+        top: 120px;
+        left: calc(100% - 691px);
+        padding-left: 50px;
+        padding-right: 100%;
+        padding-top: 20px;
+    }
+    
+    @media only screen and (max-width: 712px) {
+        .weather {
+            left: 0;
+            padding-left: 20px;
+        }
+    }
+    
+    .actual-weather {
+        padding-top: 48px;
+        color: #587095;
+        font-weight: bold;
+    }
+    
+    .actual-weather p {
+        margin: 0;
+    }
+    
+    .actual-weather p img {
+        margin: 0;
+        padding-left: 24px;
+        width: 46px;
+        height: 46px;
+    }
+    
+    .weather ul {
+        list-style: none;
+        padding-left: 0;
+    }
+    
+    .snow ul li {
+        width: 427px;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .snow ul li p {
+        color: #587095;
+        font-size: 24px;
+        margin: 0;
+    }
+    
+    .cm {
+        min-width: 75px;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .info img {
+        width: 30px;
+        height: 30px;
+        margin: 0;
+        right: 650px;
+    }
+    
+    .info ul li {
+        padding-top: 20px;
+    }
+    
+    .info ul li p {
+        padding-left: 60px;
+        color: #C6A671;
+        font-size: 24px;
+        margin: 0;
+        font-weight: bold;
+    }
+    
+    .mansnow {
+        overflow: hidden;
+        position: absolute;
+        width: 488px;
+        height: 538px;
+        bottom: 0px;
+        z-index: 10;
+        left: 212px;
+    }
+    
+    .mansnow img {
+        position: absolute;
+        top: 0px;
+        left: -150px;
+        margin: 0;
+        width: 950px;
+        height: 800px;
+        transform: scaleX(-1);
+    }
+    
+    .prices {
+        position: absolute;
+        bottom: 0px;
+        right: 0;
+        z-index: 5;
+        width: 1669px;
+        height: 844px;
+        display: flex;
+        overflow: hidden;
+    }
+    
+    @media only screen and (max-width: 1670px) {
+        .prices {
+            left: 0;
+        }
+    }
+    
+    .prices-table {
+        width: 567px;
+        z-index: 8;
+        background-color: #c6a671;
+    }
+    
+    .prices-table table thead td {
+        height: 102px;
+        text-align: center;
+        color: white;
+        font-size: 30px;
+        font-weight: bold;
+    }
+    
+    .prices-table table th {
+        padding: 0px;
+        position: relative;
+        width: 45%;
+        text-align: center;
+        color: white;
+        font-size: 22px;
+        font-weight: bold;
+        border-top: 1px solid #E3C592;
+    }
+    
+    .prices-table table td {
+        padding: 0px;
+        height: 104px;
+        position: relative;
+        text-align: center;
+        color: white;
+        font-size: 22px;
+        font-weight: bold;
+        border-top: 1px solid #E3C592;
+        border-left: 1px solid #E3C592;
+    }
+    
+    .prices-table table td p {
+        width: 100%;
+        position: absolute;
+        text-align: center;
+        font-size: 18px;
+        font-weight: 300;
+        margin: 0;
+        top: calc(50% + 15px);
+    }
+    
+    .prices-table table th p {
+        width: 100%;
+        text-align: center;
+        font-size: 22px;
+        font-weight: 300;
+        margin: 0;
+        top: calc(50% + 15px);
+    }
+    
+    .prices-table table {
+        margin: 0;
+        height: 100%;
+        width: 100%;
+        text-align: center;
+        color: white;
+        font-size: 22px;
+        font-weight: bold;
+    }
+    
+    .prices-img {
+        width: 1102px;
+        overflow: hidden;
+        margin-top: -630px;
+        margin-left: -600px;
+    }
+    
+    .yellow-background {
+        bottom: 0px;
+        right: 0;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: RGBA(80, 95, 113, 0.3);
+    }
+    
+    .ellipse {
+        position: relative;
+        overflow: hidden;
+        z-index: 3;
+        margin-top: 1000px;
+        margin-left: -300px;
+        width: 2000px;
+        height: 1000px;
+        border-radius: 50%;
+        background: radial-gradient(ellipse at center, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 50%);
+        position: relative;
+        transform: rotate(90deg);
+    }
+    
+    .prices-img .prices-text {
+        color: #fff;
+        top: 0;
+        left: 0px;
+        position: absolute;
+        z-index: 9;
+        padding-left: 101px;
+        padding-top: 260px;
+    }
+    
+    .prices-img .prices-text p {
+        margin: 0;
+    }
+    
+    .prices-img .prices-text .year {
+        font-size: 190px;
+        font-weight: bold;
+        font-family: "Helvetica Neue", Arial, sans-serif;
+    }
+    
+    .prices .prices-text .year-sub {
+        font-size: 32px;
+        font-weight: bold;
+        margin-top: -20px;
+    }
+    
+    .prices .prices-text .sale {
+        padding-top: 28px;
+        color: white;
+        font-size: 26px;
+        font-weight: bold;
+        width: 369px;
+    }
+    
+    .prices .prices-text .buy-now {
+        width: 214px;
+        margin-top: 66px;
+        padding-top: 18px;
+        padding-bottom: 18px;
+        text-align: center;
+        font-size: 26px;
+        font-weight: bold;
+        background-color: #c6a671;
+        margin-left: -22px;
+    }
+    
+    .diagonal-line {
+        top: 50px;
+        z-index: 20;
+        position: absolute;
+        width: 246px;
+        height: 246px;
+        background: linear-gradient(to bottom right, transparent 48.5%, white 48.5%, white 51.5%, transparent 51.5%);
+    }
+    @media only screen and (min-width: 600px) {
+    .mobil{
+    display: none;
+    }
+    }
+
+    .diagonal-line2 {
+        top: 437px;
+        left: 420px;
+        z-index: 20;
+        position: absolute;
+        width: 231px;
+        height: 231px;
+        background: linear-gradient(to bottom right, transparent 48.5%, white 48.5%, white 51.5%, transparent 51.5%);
+    }
+    
+    @media only screen and (max-width: 600px) {
+        .weather-text {
+            font-size: 14px;
+        }
+        .weather {
+            width: 220px;
+            z-index: 1;
+        }
+        .home-screen .home-logo img {
+            width: 370px;
+            height: 250px;
+            left: calc(100% - 30px);
+            position: relative;
+        }
+        .weather .actual-weather p {
+            font-size: 24px;
+        }
+        .weather .snow p {
+            font-size: 20px;
+        }
+        .weather .snow li {
+            width: 370px;
+        }
+        .prices {
+            height: 600px;
+        }
+        .prices-img .prices-text {
+            padding-left: 20px;
+            padding-top: 50px;
+        }
+        .prices-img .prices-text .year {
+            font-size: 120px;
+        }
+        .prices .prices-text .year-sub {
+            margin-top: 0;
+        }
+        .prices .prices-text .sale {
+            padding-top: 0;
+            padding-left: 5px;
+            margin-top: 20px;
+        }
+        .diagonal-line {
+            display: none;
+        }
+        .diagonal-line2 {
+            display: none;
+        }
+        .prices .prices-text .buy-now {
+            margin-left: 0;
+        }
+        .home-screen {
+            height: 947px;
+        }
+    }
+    
+    .weather-top-text {
+        font-size: 20px;
+    }
+    
+    .weather-bottom-text {
+        font-size: 30px;
+    }
+    
+    @media only screen and (max-width: 894px) {
+        .home-screen .home-logo img {
+            min-width: 0;
+            margin-top: 171px;
+            z-index: 10;
+            width: 600px;
+            height: auto;
+            position: relative;
+            left: 58.5%;
+        }
+    }
+    
+    @media only screen and (max-width: 500px) {
+        .home-screen {
+            height: 660px;
+            padding-bottom: 400px;
+        }
+        .home-screen img {
+            margin-top: 0;
+        }
+        .home-screen .home-logo {
+            height: 300px;
+            width: 100vw;
+        }
+        .home-screen .home-logo img {
+            height: 120px;
+            width: 200px;
+            left: calc(50% - 100px);
+            top: 0;
+            margin-top: 87.5px;
+        }
+        .weather {
+            height: 548px;
+            padding-bottom: 10px;
+            top: 0;
+        }
+        .weather .actual-weather p {
+            font-size: 30px;
+        }
+        .actual-weather p img {
+            width: 37px;
+            height: 37px;
+        }
+        .info ul li {
+            padding-top: 10px;
+        }
+        .info ul li p {
+            font-size: 20px;
+        }
+        .mansnow img {
+            width: 200px;
+            height: 250px;
+        }
+        .info img {
+            width: 25px;
+            height: 25px;
+        }
+        .prices-img .prices-text .year {
+            font-size: 60px;
+        }
+        .prices .prices-text .year-sub {
+            font-size: 26px;
+        }
+        .prices .prices-text .sale {
+            font-size: 20px;
+        }
+        .prices .prices-text .buy-now {
+            margin-top: 20px;
+        }
+        .prices {
+            height: 400px;
+        }
+        .mansnow {
+            overflow: hidden;
+            position: absolute;
+            width: 500px;
+            height: 538px;
+            bottom: -9px;
+            left: 225px;
+        }
+        .mansnow img {
+            width: 613px;
+            height: 375px;
+        }
+        .weather .snow p {
+            font-size: 16px;
+        }
+        .weather .snow li {
+            width: 280px;
+        }
+        .cm {
+            min-width: 50px;
+        }
+    }
+    
+    @media only screen and (max-width: 390px) {
+        .mansnow {
+            overflow: hidden;
+            position: absolute;
+            width: 500px;
+            height: 538px;
+            bottom: -108px;
+            left: 133px;
+        }
+        .mansnow img {
+            width: 390px;
+            height: 250px;
+            left: 0;
+            bottom: 0px;
+        }
+    }
+    
+    @media only screen and (max-width: 600px) {
+        .home-screen .home-logo img {
+            width: 370px;
+            height: auto;
+            left: calc(50% + 170px);
+            position: relative;
+        }
+    }
+    @media only screen and (max-width: 400px) {
+        .prices .prices-text .sale {
+            font-size: 18px;
+        }
+
+    }
+
+    @media only screen and (max-width: 600px) {
+        .home-screen .home-logo img {
+            width: 300px;
+            height: auto;
+            left: calc(50% + 200px);
+        }
+        .background-img {
+            min-width: calc(100% + 352px)!important;
+            position: absolute!important;
+            width: 1104px!important;
+            height: auto!important;
+            margin-top: -116px!important;
+            right: -216px!important;
+        }
+    }
+    
+    @media only screen and (min-width: 599px) and (max-width: 1024px) {
+        .background-img {
+            min-width: calc(100% + 352px)!important;
+            position: absolute!important;
+            width: 1669px!important;
+            height: auto!important;
+            margin-top: -59px!important;
+            right: -181px!important;
+        }
+    }

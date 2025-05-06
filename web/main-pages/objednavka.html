@@ -1,0 +1,78 @@
+<link rel="stylesheet" href="styles/objednavky-style.css">
+<script type="text/javascript">
+    document.title = "Registrace";
+</script>
+<section>
+    <h1 class="header zpet">
+        <a href="objednavky.php"><span class="yellow"> &lt; </span>Zpět</a>
+    </h1>
+
+    <form method="post" action="objednavky.php">
+
+        <div class="text-info2">
+            <div class="table-container">
+                <table>
+                    <tr class="nadpis">
+                        <th>DATUM:</th>
+                        <th>Č.OBJEDNÁVKY:</th>
+                        <th>ČÁSTKA:</th>
+                        <th>ČAS ODBAVENÍ:</th>
+                        <th>Faktura</th>
+                    </tr>
+
+                    <?php 
+                    if($objednavka != null){
+                            echo '<tr>
+                                <td>', date("d. m. Y", strtotime($objednavka["datum"])), '</td>
+                                <td>', $objednavka["cisloObjednavky"], '</td>
+                                <td>', $objednavka["castka"], '</td>
+                                <td>', date("d. m. Y", strtotime($objednavka["casOdbaveni"])), '</td>
+                                <td>', $objednavka["faktura"],'</td>
+                            </tr>';
+                        
+                    }else{
+                        echo '<tr>
+                            <td>...</td>
+                            <td>...</td>
+                            <td>...</td>
+                            <td>...</td>
+                            <td>...</td>
+                        </tr>';
+                    }
+                    ?>
+
+                </table>
+            </div>
+
+            <p class="obsah-objednavky">
+                Obsah objednávky:
+            </p>
+
+            <table class="skipas-obsah2">
+                <?php
+                if($skipass != null){
+                    foreach ($skipass as $key => $value) {
+                        echo '<tr>
+                            <th class="th-obsah"> Skipass ' ,
+                                 $value[0], ', ' , $value[1], '
+
+                                 <th class="th-box">
+                                    <p class="box">',$value["pocet"],'</p>
+                                </th>
+                        </tr>';
+                    }
+                
+                }else{
+                    echo '<tr>
+                        <td>...</td>
+                    </tr>';
+                }
+                ?>
+
+            </table>
+        </div>
+
+
+    </form>
+
+</section>

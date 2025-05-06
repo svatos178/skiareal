@@ -1,0 +1,1113 @@
+    .header {
+        color: #587095;
+        font-size: 80px;
+        font-weight: bold;
+        padding-bottom: 45px;
+        padding-top: 45px;
+        margin: 0;
+        padding-left: 13vw;
+        padding-right: 13vw;
+    }
+    
+    .info {
+        font-weight: 500;
+        font-size: 28px;
+        color: #587095;
+        padding-left: 13vw;
+        padding-right: 13vw;
+        margin-bottom: 45px;
+    }
+    
+    .blue-white2 .white2 {
+        background-color: #F5F5F7 !important;
+    }
+    
+    .center {
+        text-align: center;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .center p {
+        margin: 0;
+    }
+    
+    .px38 {
+        font-size: 37px;
+        margin-top: 11%;
+        font-weight: bold;
+        padding-bottom: 41px;
+    }
+    
+    .px28 {
+        font-size: 28px;
+    }
+    
+    .navbar a.active-ski-school {
+        background-color: #c6a671 !important;
+        font-size: 24px;
+    }
+    
+    .p-ski-school {
+        color: white;
+    }
+    
+    .white {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: white;
+        color: #587095;
+        width: 709px;
+        height: 282px;
+        justify-content: flex-start;
+        text-align: left;
+    }
+    
+    .blue-white {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    @media only screen and (max-width: 1437px) {
+        .provozni-doba {
+            padding-bottom: 0;
+        }
+    }
+    
+    .number36 {
+        color: #C6A671;
+        font-size: 36px;
+        padding-right: 41px;
+        font-weight: bold;
+    }
+    
+    .number42 {
+        color: #C6A671;
+        font-size: 42px;
+        padding-right: 16px;
+    }
+    
+    @media only screen and (min-width: 1920px) {
+        .header {
+            padding-left: 251px;
+        }
+        .info {
+            padding-left: 251px;
+            padding-right: 249px;
+        }
+        .sky-time {
+            display: block;
+        }
+    }
+    
+    .white2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: white;
+        color: #587095;
+        max-width: 635px;
+        justify-content: flex-start;
+        text-align: left;
+    }
+    
+    .blue-white2 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        max-width: 1383px;
+    }
+    
+    .white {
+        width: 709px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: white;
+        color: #587095;
+        align-items: center;
+        height: 282px;
+    }
+    
+    .blue {
+        width: 709px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: #587095;
+        color: white;
+        align-items: center;
+        height: 282px;
+    }
+    
+    .px55 {
+        font-size: 45px;
+        font-weight: 500;
+        text-align: left;
+    }
+    
+    .px40 {
+        font-size: 40px;
+        font-weight: 300;
+    }
+    
+    @media only screen and (max-width: 709px) {
+        .blue {
+            width: 100%;
+        }
+        .white {
+            width: 100%;
+        }
+    }
+    
+    .blue-white {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+    
+    .sky-time {
+        display: grid;
+        flex-direction: column;
+        padding-left: 13vw;
+        flex-wrap: wrap;
+        padding-right: 13vw;
+    }
+    
+    .contact-section {
+        padding-left: 13vw;
+        padding-right: 13vw;
+        font-family: "Montserrat";
+        font-size: 36px;
+        color: #587095;
+        text-decoration: none;
+    }
+    
+    @media only screen and (min-width: 1920px) {
+        .sky-time {
+            padding-left: 251px;
+            padding-right: 251px;
+        }
+        .contact-section {
+            padding-left: 251px;
+            padding-right: 251px;
+        }
+    }
+    
+    .provozni-doba {
+        width: 100%;
+        font-size: 70px;
+        color: #587095;
+        font-weight: bold;
+        padding-bottom: 46px;
+        text-align: left;
+    }
+    
+    @media only screen and (min-width: 1920px) {
+        .header {
+            padding-left: 251px;
+        }
+        .info {
+            padding-left: 251px;
+            padding-right: 249px;
+        }
+        .sky-time {
+            display: block;
+        }
+    }
+    
+    .cenik {
+        display: grid;
+        grid-template-columns: 50% 25% 25%;
+        margin-left: 251px;
+        margin-right: 251px;
+        padding-top: 50px;
+    }
+    
+    .cenik .cenik-column {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    .cenik .cenik-column .cenik-table-head {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        color: #587095;
+        border-bottom: 5px solid #c6a671;
+        height: 86px;
+        margin-bottom: 10px;
+    }
+    
+    .cenik .cenik-column .cenik-table-head h1 {
+        padding-bottom: 10px;
+        font-size: 70px;
+        margin: 0;
+    }
+    
+    .cenik .cenik-column .cenik-table-head h2 {
+        padding-bottom: 10px;
+        font-size: 42px;
+        margin: 0;
+    }
+    
+    .cenik .cenik-column .cenik-table-head span {
+        padding-bottom: 10px;
+        font-size: 24px;
+        margin: 0;
+    }
+    
+    .cenik .cenik-column .cenik-item {
+        height: 91px;
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        justify-content: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    
+    .cenik-item {
+        margin-bottom: 41px;
+    }
+    
+    .cenik .cenik-column .cenik-doba-main {
+        font-size: 37px;
+        font-weight: bold;
+        color: #587095;
+    }
+    
+    .cenik .cenik-column .cenik-doba-sub {
+        font-size: 37px;
+        font-weight: 500;
+        color: #c6a671;
+    }
+    
+    .cenik .cenik-column .cenik-doba-inst {
+        font-size: 37px;
+        color: #587095;
+    }
+    
+    .cenik .cenik-column .cenik-cena {
+        font-size: 50px;
+        font-weight: bold;
+        color: #c6a671;
+    }
+    
+    .cenik .cenik-footer-text {
+        height: 68px;
+        font-size: 37px;
+        color: #587095;
+        font-weight: bold;
+        display: flex;
+        align-items: center;
+        border-top: 5px solid #c6a671;
+        padding-top: 20px;
+    }
+    /* .cenik .cenik-footer-button {
+        height: 68px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        border-top: 5px solid #c6a671;
+        padding-top: 20px;
+    }*/
+    
+    .cenik .cenik-footer-empty {
+        border-top: 5px solid #c6a671;
+    }
+    
+    .cenik .cenik-footer-button a {
+        text-align: center;
+        background-color: #c6a671;
+        color: white;
+        font-size: 26px;
+        font-weight: bold;
+        text-decoration: none;
+        padding: 25px 25px 18px 18px;
+    }
+    
+    .cenik .cenik-column .cenik-item .os {
+        color: #587095;
+    }
+    /*----------------------------*/
+    
+    .cenik {
+        display: grid;
+        grid-template-columns: 50% 25% 25%;
+        margin-left: 251px;
+        margin-right: 251px;
+        padding-top: 50px;
+    }
+    
+    .cenik-mobile {
+        padding-top: 50px;
+    }
+    
+    .cenik-mobile .cenik-column {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    .cenik-mobile .cenik-column .cenik-table-head {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        color: #587095;
+        border-bottom: 5px solid #c6a671;
+        height: 86px;
+        margin-bottom: 10px;
+        width: 100%;
+    }
+    
+    .cenik-mobile .cenik-column .cenik-table-head h1 {
+        padding-bottom: 10px;
+        font-size: 70px;
+        margin: 0;
+    }
+    
+    .cenik-mobile .cenik-column .cenik-table-head h2 {
+        padding-bottom: 10px;
+        font-size: 42px;
+        margin: 0;
+    }
+    
+    .cenik-mobile .cenik-column .cenik-table-head span {
+        padding-bottom: 10px;
+        font-size: 24px;
+        margin: 0;
+    }
+    
+    .cenik-mobile .cenik-column .cenik-item {
+        height: 91px;
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        justify-content: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    
+    .cenik-mobile .cenik-column .cenik-doba-main {
+        font-size: 37px;
+        font-weight: bold;
+        color: #587095;
+    }
+    
+    .cenik-mobile .cenik-column .cenik-doba-sub {
+        font-size: 37px;
+        font-weight: 500;
+        color: #c6a671;
+    }
+    
+    .cenik-mobile .cenik-column .cenik-doba-inst {
+        font-size: 37px;
+        color: #587095;
+    }
+    
+    .cenik-mobile .cenik-column .cenik-cena {
+        font-size: 50px;
+        font-weight: bold;
+        color: #c6a671;
+    }
+    
+    .cenik-mobile .cenik-footer-text {
+        height: 68px;
+        font-size: 37px;
+        color: #587095;
+        font-weight: bold;
+        display: flex;
+        align-items: center;
+        border-top: 5px solid #c6a671;
+        padding-top: 20px;
+    }
+    
+    .cenik-mobile .cenik-footer-button {
+        height: 68px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        border-top: 5px solid #c6a671;
+        padding-top: 20px;
+    }
+    
+    .cenik-mobile .cenik-footer-empty {
+        border-top: 5px solid #c6a671;
+    }
+    
+    .cenik-mobile .cenik-footer-button a {
+        text-align: center;
+        background-color: #c6a671;
+        color: white;
+        font-size: 26px;
+        font-weight: bold;
+        text-decoration: none;
+        padding: 25px 25px 18px 18px;
+    }
+    
+    .cenik-mobile .cenik-column .cenik-item .os {
+        color: #587095;
+    }
+    
+    .cenik-mobile {
+        display: none;
+    }
+    
+    .cenik-mobile .cenik-mobile-collumn {
+        display: grid;
+        justify-content: center;
+        grid-template-columns: 50% 50%;
+        width: 100%;
+    }
+    
+    .cenik-mobile .cenik-mobile-collumn .cenik-column {
+        padding-left: 0px;
+    }
+    
+    .cenik-mobile .cenik-mobile-collumn .cenik-column:nth-child(2) {
+        display: flex;
+        align-items: flex-end;
+        padding-right: 20px;
+        padding-left: 0;
+    }
+    
+    .cenik-mobile .cenik-mobile-collumn .cenik-table-head span {
+        width: 100%;
+        text-align: right;
+    }
+    
+    @media only screen and (max-width: 1550px) {
+        .cenik {
+            display: grid;
+            grid-template-columns: 40% 30% 30%;
+            margin-left: 251px;
+            margin-right: 251px;
+            padding-top: 50px;
+        }
+    }
+    
+    @media only screen and (max-width: 1550px) {
+        .cenik {
+            display: none;
+        }
+        .cenik-mobile {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            padding-left: 13vw;
+            padding-right: 13vw;
+        }
+    }
+    
+    @media only screen and (max-width: 900px) {
+        .cenik-mobile .cenik-column .cenik-table-head h1 {
+            font-size: 40px;
+        }
+        .cenik-mobile .cenik-column .cenik-doba-main {
+            font-size: 25px;
+        }
+        .cenik-mobile .cenik-column .cenik-doba-inst {
+            font-size: 25px;
+        }
+        .cenik-mobile .cenik-column .cenik-doba-sub {
+            font-size: 25px;
+        }
+        .cenik-mobile .cenik-column .cenik-cena {
+            font-size: 25px;
+        }
+        .cenik-mobile .cenik-mobile-collumn .cenik-table-head span {
+            width: 100%;
+            text-align: right;
+        }
+        .cenik-mobile .cenik-column .cenik-item {
+            padding-top: 35px;
+            padding-bottom: 35px;
+        }
+        .cenik-mobile {
+            padding-left: 20px;
+            padding-right: 20px;
+            align-items: center;
+        }
+    }
+    
+    @media only screen and (max-width: 500px) {
+        .cenik-mobile .cenik-mobile-collumn .cenik-table-head span {
+            text-align: right;
+            font-size: 20px;
+        }
+        .cenik-mobile .cenik-column .cenik-table-head {
+            padding-top: 10px;
+            height: 70px;
+        }
+    }
+    
+    @media only screen and (max-width: 470px) {
+        .cenik-mobile .cenik-mobile-collumn .cenik-table-head span {
+            font-size: 16px;
+        }
+        .cenik-mobile .cenik-column .cenik-doba-main {
+            font-size: 20px;
+        }
+        .cenik-mobile .cenik-column .cenik-doba-inst {
+            font-size: 20px;
+        }
+        .cenik-mobile .cenik-column .cenik-doba-sub {
+            font-size: 20px;
+        }
+        .cenik-mobile .cenik-column .cenik-cena {
+            font-size: 20px;
+        }
+        .cenik-mobile .cenik-column .cenik-table-head h1 {
+            font-size: 30px;
+        }
+        .cenik-mobile .cenik-column .cenik-item {
+            height: 65px;
+            margin-bottom: 10px;
+        }
+    }
+    
+    @media only screen and (max-width: 600px) {
+        .header {
+            font-size: 40px;
+            padding-left: 20px;
+        }
+        .info {
+            font-size: 20px;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+        .provozni-doba {
+            font-size: 40px;
+            padding-top: 0px;
+            padding-bottom: 20px;
+        }
+        .px38 {
+            font-size: 30px;
+            padding-bottom: 10px;
+        }
+        .px28 {
+            font-size: 20px;
+        }
+        .white2 {
+            height: 260px;
+        }
+        .white {
+            height: 200px;
+        }
+        .blue {
+            height: 200px;
+        }
+        .px55 {
+            font-size: 40px;
+        }
+    }
+    
+    .btn-menu-show-more {
+        width: 215px;
+        height: 68px;
+        background-color: #c6a671;
+        transition: width ease-out 0.3s;
+        text-align: center;
+        font-weight: bolder;
+        padding-left: 15px;
+        padding-top: 5px;
+        border: none;
+        display: flex;
+        align-items: center;
+        bottom: 45px;
+        left: calc(100% - 324px);
+        padding-right: 20px;
+    }
+    
+    .div-btn {
+        margin-top: 30px;
+        margin-bottom: 50px;
+        width: 230px;
+    }
+    
+    @media only screen and (min-width: 1716px) {
+        .btn1 {
+            margin-top: 65px;
+        }
+    }
+    
+    a {
+        text-decoration: none;
+    }
+    
+    .rotatex {
+        transform: scaleX(1) !important;
+    }
+    
+    .btn-menu-show-more:hover {
+        width: 255px;
+        cursor: pointer;
+    }
+    
+    .icon-show-more {
+        height: 45px;
+        width: 45px;
+        opacity: 0;
+        visibility: hidden;
+        transition: opacity 0.3s ease, visibility 0s linear 0.3s;
+    }
+    
+    .btn-menu-show-more:hover .icon-show-more {
+        opacity: 1;
+        visibility: visible;
+        transition-delay: 0s;
+    }
+    
+    .show-more {
+        margin: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+    }
+    
+    .btn-menu-show-more p {
+        color: #ffffff;
+        font-size: 26px;
+        font-weight: bold;
+        font-family: 'Montserrat', sans-serif;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    
+    .menu-arrow-show-more {
+        z-index: 30;
+        position: absolute;
+        right: -50px;
+        top: -7px;
+    }
+    
+    .contact-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    
+    .contact-column {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .logo-column,
+    .phone-column {
+        text-decoration: none;
+    }
+    
+    .email-social-column {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    .email-container {
+        align-self: center;
+    }
+    
+    .social-icons {
+        display: flex;
+        justify-content: center;
+        gap: 40px;
+    }
+    
+    .social-icons img {
+        height: 30px;
+        width: 30px;
+    }
+    
+    @media (max-width: 1220px) {
+        .contact-container {
+            flex-direction: column;
+            align-items: left;
+        }
+        .contact-column,
+        .email-social-column,
+        .social-icons {
+            align-items: center;
+            margin-bottom: 10px;
+        }
+        .email-container {
+            align-self: stretch;
+            text-align: center;
+        }
+        .social-icons {
+            justify-content: left;
+        }
+        .social-icons img {
+            height: 50px;
+            width: 50px;
+        }
+    }
+    
+    .kontakt-skola {
+        padding-bottom: 89px;
+        font-size: 70px;
+        font-weight: bolder;
+        margin-bottom: 0;
+    }
+    
+    .ski-school-logo {
+        width: 400px;
+        height: 69px;
+        margin-top: 20px;
+    }
+    
+    .text-ski-fanatic {
+        color: #587095;
+        margin-left: 100px;
+        font-weight: bold;
+    }
+    
+    .contact-link {
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        color: #587095;
+    }
+    
+    .icon {
+        margin-right: 10px;
+        height: 60px;
+        position: relative;
+        margin-right: -90px;
+    }
+    
+    @media (max-width: 850px) {
+        .kontakt-skola {
+            font-size: 50px;
+        }
+        .kontakt-skola {
+            padding-bottom: 30px;
+        }
+    }
+    
+    @media (max-width: 600px) {
+        .contact-section {
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+        .ski-school-logo {
+            width: 300px;
+            height: 52px;
+        }
+        .contact-section {
+            font-size: 25px;
+        }
+        .icon {
+            height: 40px;
+        }
+        .sky-time {
+            margin-top: 50px;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+        .blue-white2 {
+            flex-direction: column;
+        }
+        .white2 {
+            height: 310px;
+        }
+        .div-btn {
+            margin: 0;
+        }
+        .white2 .btn-menu-show-more {
+            margin-top: 30px;
+        }
+    }
+    
+    @media (max-width: 500px) {
+        .kontakt-skola {
+            font-size: 35px;
+        }
+        .contact-section p {
+            margin-top: 15px;
+            margin-bottom: 15px;
+        }
+        .ski-school-logo {
+            width: 270px;
+            height: 45px;
+        }
+    }
+    
+    @media (max-width: 590px) {
+        .white2 {
+            height: 350px;
+        }
+    }
+    
+    @media (max-width: 520px) {
+        .white2 {
+            height: 400px;
+        }
+    }
+    
+    @media (max-width: 470px) {
+        .white2 {
+            height: 450px;
+        }
+    }
+    
+    @media (max-width: 380px) {
+        .white2 {
+            height: 500px;
+        }
+    }
+    
+    @media only screen and (min-width: 1301px) and (max-width: 1920px) {
+        .blue,
+        .white {
+            width: 36.927vw;
+        }
+    }
+    
+    @media only screen and (max-width: 1300px) {
+        .blue,
+        .white {
+            width: 100%;
+        }
+        .cenik-mobile .cenik-column .cenik-item {
+            padding-bottom: 50px;
+            padding-top: 50px;
+        }
+        .cenik-mobile .cenik-mobile-collumn .cenik-column:nth-child(2) {
+            width: 100%;
+        }
+    }
+    
+    @media only screen and (max-width: 1734px) and (min-width:1221px) {
+        .ski-school-logo {
+            width: 250px;
+            height: auto;
+        }
+        .text-ski-fanatic {
+            font-size: 26px;
+        }
+        .icon {
+            height: 50px;
+        }
+    }
+    
+    @media only screen and (max-width: 1024px) {
+        .number36 {
+            padding-right: 20px;
+        }
+        .header {
+            font-size: 60px;
+            padding-top: 30px;
+            padding-bottom: 30px;
+        }
+        .info {
+            margin-bottom: 30px;
+        }
+        .provozni-doba p {
+            font-size: 60px;
+        }
+        .px38 {
+            padding-bottom: 20px;
+        }
+        .btn1 {
+            margin-top: 20px;
+        }
+        .white2 {
+            padding-bottom: 20px;
+        }
+        .kontakt-skola {
+            padding-bottom: 40px;
+        }
+        .text-ski-fanatic {
+            margin-top: 25px;
+            margin-bottom: 25px;
+        }
+        .social-icons img {
+            height: 40px;
+            width: 40px;
+        }
+        .kontakt-skola {
+            font-size: 60px;
+        }
+        .phone-column {
+            padding-bottom: 40px;
+        }
+        .blue,
+        .white {
+            height: 170px;
+        }
+        .cenik-mobile .cenik-column .cenik-doba-main {
+            font-size: 20px;
+        }
+        .cenik-mobile .cenik-column .cenik-doba-inst {
+            font-size: 20px;
+        }
+        .cenik-mobile .cenik-column .cenik-doba-sub {
+            font-size: 20px;
+        }
+        .cenik-mobile .cenik-column .cenik-cena {
+            font-size: 26px;
+        }
+        .cenik-mobile .cenik-mobile-collumn .cenik-column:nth-child(2) {
+            width: 100%;
+        }
+        .cenik-mobile .cenik-column .cenik-table-head span {
+            font-size: 18px;
+        }
+        .cenik-item {
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+        .cenik-mobile .cenik-mobile-collumn .cenik-table-head span {
+            text-align: right;
+        }
+        .cenik-mobile .cenik-column .cenik-table-head h1 {
+            font-size: 40px;
+        }
+        .cenik-item {
+            margin-bottom: 0px;
+        }
+        .cenik-mobile .cenik-column .cenik-item {
+            padding-bottom: 10px;
+            padding-top: 0px;
+        }
+        .provozni-doba {
+            padding-bottom: 10px;
+        }
+        .cenik-mobile .cenik-mobile-collumn .cenik-column:nth-child(2) {
+            width: 100%;
+        }
+    }
+    
+    @media only screen and (max-width: 600px) {
+        .cenik-mobile .cenik-mobile-collumn .cenik-column:nth-child(2) {
+            width: 100%;
+        }
+        .header {
+            font-size: 30px;
+            padding-top: 20px;
+            padding-bottom: 10px;
+        }
+        .number36,
+        .number42 {
+            font-size: 30px;
+            padding-right: 10px;
+        }
+        .provozni-doba p {
+            font-size: 36px;
+        }
+        .px38 {
+            font-size: 24px;
+        }
+        .white2 {
+            height: 300px;
+        }
+        .btn-menu-show-more p {
+            font-size: 20px;
+        }
+        .btn-menu-show-more {
+            width: 175px;
+            height: 40px;
+            padding-bottom: 5px;
+        }
+        .menu-arrow-show-more {
+            display: none;
+        }
+        .btn-menu-show-more:hover {
+            width: 175px;
+        }
+        .white2 {
+            padding-bottom: 0;
+        }
+        .blue,
+        .white {
+            height: 100px;
+        }
+        .px55 {
+            font-size: 28px;
+        }
+        .px40 {
+            font-size: 20px;
+        }
+        .kontakt-skola {
+            font-size: 36px;
+            padding-bottom: 20px;
+        }
+        .contact-container {
+            align-items: center;
+        }
+        .social-icons {
+            justify-content: center;
+        }
+        .ski-school-logo {
+            width: 240px;
+            height: auto;
+            margin-left: 10px;
+        }
+        .text-ski-fanatic {
+            margin-top: 10px;
+            margin-bottom: 10px;
+            font-size: 20px;
+        }
+        .social-icons img {
+            height: 24px;
+            width: 24px;
+        }
+        .cenik-mobile .cenik-mobile-collumn .cenik-column,
+        .cenik-mobile .cenik-mobile-collumn .cenik-column:nth-child(2) {
+            padding-left: 0;
+            padding-right: 0;
+        }
+        .cenik-mobile .cenik-column .cenik-doba-main {
+            font-size: 3.8vw;
+        }
+        .cenik-mobile .cenik-column .cenik-doba-inst {
+            font-size: 3.8vw;
+        }
+        .cenik-mobile .cenik-column .cenik-doba-sub {
+            font-size: 3.8vw;
+        }
+        .cenik-mobile .cenik-column .cenik-cena {
+            font-size: 4vw;
+        }
+        .cenik-mobile .cenik-column .cenik-table-head span {
+            font-size: 3.8vw;
+        }
+        .cenik-mobile .cenik-column .cenik-item {
+            padding-bottom: 0px;
+            margin-bottom: 0;
+        }
+    }
+    
+    @media only screen and (max-width: 600px)and (min-width:510px) {
+        .cenik-mobile .cenik-column .cenik-doba-main {
+            font-size: 3.4vw;
+        }
+        .cenik-mobile .cenik-column .cenik-doba-inst {
+            font-size: 3.4vw;
+        }
+        .cenik-mobile .cenik-column .cenik-doba-sub {
+            font-size: 3.4vw;
+        }
+        .cenik-mobile .cenik-column .cenik-cena {
+            font-size: 3.6vw;
+        }
+    }
+    
+    @media only screen and (max-width: 458px) {
+        .white2 {
+            height: 400px;
+        }
+    }
+    
+    @media only screen and (max-width: 358px) {
+        .white2 {
+            height: 460px;
+        }
+    }

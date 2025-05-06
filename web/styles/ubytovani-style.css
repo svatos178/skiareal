@@ -1,0 +1,804 @@
+        .activity-page {
+            padding-right: 13vw;
+            padding-left: 13vw;
+        }
+        
+        .activity-page h1 {
+            color: #587095;
+            font-size: 80px;
+            font-weight: bold;
+            padding-bottom: 45px;
+            padding-top: 45px;
+            margin: 0;
+        }
+        
+        .activity-page p {
+            margin: 0;
+            font-size: 28px;
+            color: #587095;
+        }
+        
+        .activity-grid {
+            margin-top: 45px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        .activity-grid-cell {
+            position: relative;
+            margin-bottom: 68px;
+            width: 74vw;
+            max-width: 1420px;
+            display: grid;
+            grid-template-columns: 536px auto;
+            max-height: 491px;
+        }
+        
+        .grid-cell-img img {
+            width: 536px;
+            height: 491px;
+            object-fit: cover;
+        }
+        
+        .grid-cell-text {
+            color: #ffffff;
+            background-color: #C6A671;
+            width: 100%;
+            height: 100%;
+            position: relative;
+        }
+        
+        .grid-cell-text h2 {
+            padding-right: 36px;
+            padding-left: 56px;
+            font-size: 32px;
+            font-weight: bold;
+            margin-top: 45px;
+            margin-bottom: 26px;
+            padding-left: 56px;
+        }
+        
+        .grid-cell-text p {
+            color: #ffffff;
+            font-size: 28px;
+            font-weight: 500;
+            width: calc(74vw - 500px);
+            max-width: 784px;
+            padding-left: 56px;
+            padding-right: 36px;
+        }
+        
+        .grid-cell-button {
+            background-color: #587095;
+            width: 214px;
+            height: 68px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: absolute;
+            bottom: 45px;
+            right: 110px;
+        }
+        
+        .grid-cell-button a {
+            color: #ffffff;
+            font-size: 26px;
+            font-weight: bold;
+        }
+        
+        @media only screen and (max-width: 1620px) {
+            .activity-grid-cell {
+                grid-template-columns: 468px auto;
+            }
+            .grid-cell-img img {
+                width: 468px;
+                height: 423px;
+                object-fit: cover;
+            }
+            .grid-cell-text {
+                position: static;
+            }
+            .grid-cell-button {
+                bottom: 0;
+                left: 0;
+            }
+            .icon-text {
+                padding-bottom: 0px;
+                margin-bottom: -50px;
+            }
+            .grid-cell-text h2 {
+                font-size: 30px;
+                margin-top: 35px;
+                margin-bottom: 20px;
+            }
+            .grid-cell-text p {
+                font-size: 26px;
+            }
+        }
+        /*@media only screen and (max-width: 1430px) {
+    .activity-grid-cell {
+        position: relative;
+        margin-bottom: 100px;
+        max-width: 1420px;
+        max-height: 1500px;
+        display: grid;
+        grid-template-columns: 536px;
+        grid-template-rows: 491px auto;
+        justify-content: center;
+    }
+    .grid-cell-img img {
+        width: 536px;
+        height: 491px;
+    }
+    .grid-cell-text {
+        position: relative;
+        padding-bottom: 42px;
+    }
+    .grid-cell-button {
+        left: auto;
+        right: 0;
+    }
+    .grid-cell-text p {
+        color: #ffffff;
+        font-size: 28px;
+        font-weight: 500;
+        padding-left: 56px;
+        padding-right: 36px;
+        width: calc(100% - 92px);
+    }
+    .activity-grid {
+        margin-top: 45px;
+        display: flex;
+    }
+}*/
+        
+        @media only screen and (min-width: 1920px) {
+            .activity-page {
+                padding-left: 251px;
+                padding-right: 249px;
+            }
+        }
+        
+        .activity-page {
+            padding-right: 13vw;
+            padding-left: 13vw;
+        }
+        
+        .activity-page h1 {
+            color: #587095;
+            font-size: 80px;
+            font-weight: bold;
+            padding-bottom: 45px;
+            padding-top: 45px;
+            margin: 0;
+        }
+        
+        .activity-page p {
+            margin: 0;
+            font-weight: 500;
+            font-size: 28px;
+            color: #587095;
+        }
+        
+        .activity-grid {
+            margin-top: 45px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        .activity-grid-cell {
+            position: relative;
+            margin-bottom: 68px;
+            width: 74vw;
+            max-width: 1420px;
+            display: grid;
+            grid-template-columns: 536px auto;
+        }
+        
+        .grid-cell-img {
+            width: 536px;
+            height: 491px;
+        }
+        
+        .grid-cell-img img {
+            width: 536px;
+            height: 491px;
+        }
+        
+        .grid-cell-text {
+            color: #ffffff;
+            background-color: #C6A671;
+            width: 100%;
+            height: 100%;
+            position: relative;
+        }
+        
+        .grid-cell-text p {
+            color: #ffffff;
+            font-size: 28px;
+            font-weight: 500;
+            width: calc(74vw - 500px);
+            max-width: 784px;
+            padding-left: 56px;
+            padding-right: 36px;
+        }
+        
+        .grid-cell-button a {
+            color: #ffffff;
+            font-size: 26px;
+            font-weight: bold;
+        }
+        
+        @media only screen and (min-width: 1920px) {
+            .activity-page {
+                padding-left: 251px;
+                padding-right: 249px;
+            }
+        }
+        
+        .grid-cell-button {
+            background-color: #587095;
+            width: 214px;
+            height: 68px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: absolute;
+            bottom: 45px;
+            right: 110px;
+        }
+        
+        .btn-menu-show-more {
+            width: 210px;
+            height: 68px;
+            background-color: #587095;
+            transition: width ease-out 0.3s;
+            text-align: center;
+            font-weight: bolder;
+            position: absolute;
+            padding-left: 20px;
+            padding-right: 20px;
+            padding-top: 5px;
+            border: none;
+            display: flex;
+            align-items: center;
+            bottom: 45px;
+            left: calc(100% - 324px);
+            cursor: pointer;
+        }
+        
+        .activity-page .grid-cell-text .btn-menu-show-more p {
+            color: #ffffff;
+            font-size: 26px;
+            font-weight: bold;
+            font-family: 'Montserrat', sans-serif;
+            padding-left: 0;
+            padding-right: 0;
+            width: 169px;
+        }
+        
+        .btn-menu-show-more:hover {
+            width: 270px;
+        }
+        
+        .menu-arrow-show-more {
+            z-index: 30;
+            position: absolute;
+            right: -55px;
+        }
+        
+        .rotatex {
+            transform: scaleX(1) !important;
+        }
+        
+        .icon-show-more {
+            height: 45px;
+            width: 45px;
+            padding-top: 4px;
+        }
+        
+        .show-more {
+            margin: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+        }
+        
+        .nadpis {
+            display: flex;
+        }
+        
+        .nadpis .lanovka {
+            margin-bottom: 15px;
+        }
+        
+        .nadpis .bed {
+            margin-bottom: 0;
+        }
+        
+        .nadpis span {
+            display: flex;
+            align-items: center;
+        }
+        
+        .nadpis .nadpis-icons {
+            display: flex;
+        }
+        
+        @media only screen and (max-width: 1440px) {
+            .nadpis {
+                flex-direction: column;
+            }
+            .nadpis h1 {
+                padding-bottom: 0;
+            }
+            .nadpis .bed {
+                padding-left: 0;
+            }
+        }
+        
+        @media only screen and (max-width: 1620px) {
+            .activity-grid-cell {
+                grid-template-columns: 468px auto;
+                background-color: #C6A671;
+                height: 530px;
+                max-height: 530px;
+            }
+            .grid-cell-img img {
+                width: 468px;
+                height: 423px;
+            }
+            .grid-cell-text {
+                position: static;
+            }
+            .icon-text {
+                bottom: 80px !important;
+                left: 0;
+            }
+            .blocker {
+                display: none;
+            }
+            .btn-menu-show-more {
+                margin-bottom: -20px;
+                left: calc(100% - 270px);
+            }
+        }
+        
+        .btn-menu-show-more:hover {
+            width: 255px;
+            cursor: pointer;
+        }
+        
+        .icon-show-more {
+            height: 45px;
+            width: 45px;
+            opacity: 0;
+            visibility: hidden;
+            transition: opacity 0.3s ease, visibility 0s linear 0.3s;
+        }
+        
+        .btn-menu-show-more:hover .icon-show-more {
+            opacity: 1;
+            visibility: visible;
+            transition-delay: 0s;
+        }
+        /*
+@media only screen and (max-width: 1430px) {
+    .activity-grid-cell {
+        position: relative;
+        margin-bottom: 100px;
+        max-width: 1420px;
+        max-height: 1500px;
+        display: grid;
+        grid-template-columns: 536px;
+        grid-template-rows: 491px auto;
+        justify-content: center;
+        justify-items: center;
+    }
+    .grid-cell-img img {
+        width: 536px;
+        height: 491px;
+    }
+    .grid-cell-text {
+        position: relative;
+        padding-bottom: 42px;
+    }
+    .btn-menu-show-more {
+        left: auto;
+        left: 0;
+    }
+    .grid-cell-text p {
+        color: #ffffff;
+        font-size: 28px;
+        font-weight: 500;
+        padding-left: 56px;
+        padding-right: 36px;
+        width: calc(100% - 92px);
+    }
+    .activity-grid {
+        margin-top: 45px;
+        display: flex;
+    }
+    .btn-menu-show-more:hover {
+        background-color: #587095;
+    }
+    .blocker {
+        display: block;
+    }
+}*/
+        
+        .blocker {
+            width: 50px;
+            height: 60px;
+            position: absolute;
+            right: -50px;
+            z-index: 35;
+            background-color: #C6A671;
+            top: 0;
+        }
+        
+        .navbar a.active-ubytovani {
+            background-color: #c6a671 !important;
+            font-size: 24px;
+        }
+        
+        .p-ubytovani {
+            color: white;
+        }
+        
+        .bed2 {
+            width: 86px;
+            height: 56px;
+            margin-bottom: -15px;
+            padding-left: 35px;
+        }
+        
+        .bed {
+            width: 86px;
+            height: 56px;
+            margin-bottom: -15px;
+            padding-left: 60px;
+        }
+        
+        .lanovka {
+            width: 70px;
+            height: 98px;
+            margin-bottom: -30px;
+        }
+        
+        .ubytovani-text {
+            display: inline;
+            padding-left: 0px !important;
+            padding-right: 0px !important;
+        }
+        
+        .icon-text {
+            position: absolute;
+            bottom: 65px;
+        }
+        
+        .cable-padding {
+            padding-left: 20px;
+            padding-right: 5px;
+        }
+        
+        a {
+            text-decoration: none;
+        }
+        
+        a:hover {
+            text-decoration: none;
+        }
+        
+        @media only screen and (max-width: 1510px) {
+            .grid-cell-text p {
+                font-size: 24px;
+            }
+        }
+        
+        @media only screen and (max-width: 1270px) {
+            .grid-cell-text p {
+                font-size: 20px;
+            }
+        }
+        
+        @media only screen and (max-width: 1130px) {
+            .grid-cell-text p {
+                padding-left: 20px;
+                padding-right: 20px;
+            }
+            .activity-grid-cell {
+                grid-template-columns: 436px auto;
+            }
+            .grid-cell-text p {
+                width: calc(74vw - 430px);
+            }
+        }
+        
+        @media only screen and (max-width: 1024px) {
+            .activity-page {
+                padding-left: 20px;
+                padding-right: 20px;
+            }
+            .activity-grid-cell {
+                width: 100%;
+            }
+            .grid-cell-text p {
+                width: calc(100% - 40px);
+            }
+            .activity-page h1 {
+                font-size: 50px;
+            }
+            .ubytovani-text {
+                font-size: 20px;
+            }
+            .activity-page p {
+                font-size: 20px;
+            }
+            .nadpis .lanovka {
+                width: 50px;
+                height: 70px;
+            }
+            .nadpis .bed {
+                width: 65px;
+                height: 45px;
+            }
+        }
+        
+        @media only screen and (max-width: 840px) {
+            .activity-page {
+                padding-left: 20px;
+                padding-right: 20px;
+            }
+            .activity-grid-cell {
+                width: 100%;
+            }
+            .grid-cell-text p {
+                width: calc(100% - 40px);
+            }
+            .grid-cell-img {
+                width: 60px;
+                height: 330px;
+            }
+            .grid-cell-img img {
+                width: 360px;
+                height: 330px;
+            }
+            .activity-grid-cell {
+                grid-template-columns: 360px auto;
+            }
+            .grid-cell-text h2 {
+                font-size: 24px;
+                padding-left: 20px;
+            }
+        }
+        
+        @media only screen and (max-width: 730px) {
+            .grid-cell-text p {
+                font-size: 16px;
+                padding-left: 10px;
+                padding-right: 10px;
+            }
+            .grid-cell-img img {
+                width: 360px;
+                height: 410px;
+            }
+        }
+        
+        @media only screen and (max-width: 660px) {
+            .menu-arrow-show-more {
+                display: none;
+            }
+            .btn-menu-show-more {
+                height: 50px;
+                width: 180px;
+                left: calc(100% - 230px);
+            }
+            .btn-menu-show-more:hover {
+                width: 180px;
+            }
+            .icon-show-more {
+                height: 30px;
+                width: 30px;
+            }
+            .menu-arrow-show-more {
+                right: -25px;
+            }
+            .activity-page .grid-cell-text .btn-menu-show-more p {
+                font-size: 20px;
+            }
+            .activity-grid-cell {
+                grid-template-columns: 280px auto;
+            }
+            .grid-cell-img img {
+                width: 280px;
+                height: 323px;
+            }
+            .activity-grid-cell {
+                height: 450px;
+            }
+        }
+        
+        @media only screen and (max-width: 600px) {
+            .activity-page h1 {
+                font-size: 50px;
+            }
+            .activity-page {
+                padding-left: 20px;
+                padding-right: 20px;
+            }
+            .grid-cell-img {
+                z-index: 20;
+            }
+            .empty-nadpis-flaot {
+                display: none;
+            }
+            .empty-text-flaot {
+                display: none;
+            }
+            .grid-cell-text {
+                display: block;
+                margin-top: 0px;
+            }
+            .grid-cell-text h2 {
+                font-size: 16px;
+                padding-right: 10px;
+                height: 40px;
+                margin-bottom: 0px;
+                margin-top: 240px;
+            }
+            .grid-cell-text p {
+                font-size: 16px;
+                padding-right: 20px;
+                padding-left: 20px;
+            }
+            .activity-grid-cell {
+                grid-template-columns: 0 auto;
+            }
+            .btn-menu-show-more {
+                height: 50px;
+                width: 180px;
+                left: calc(100% - 120px);
+                margin-bottom: -20px;
+            }
+            .bed2 {
+                width: 50px;
+                height: 30px;
+                margin-bottom: -8px;
+                padding-left: 7px;
+                margin-right: -15px;
+            }
+            .lanovka {
+                width: 35px;
+                height: 62px;
+                margin-bottom: -23px;
+            }
+            .btn-menu-show-more {
+                height: 30px;
+                width: 100px;
+                padding: 0;
+            }
+            .btn-menu-show-more:hover {
+                width: 100px;
+            }
+            .menu-arrow-show-more {
+                display: none;
+            }
+            .activity-page .grid-cell-text .btn-menu-show-more p {
+                font-size: 13px;
+            }
+            .grid-cell-img img {
+                width: calc(100vw - 40px);
+                height: 216px;
+            }
+            .activity-grid-cell {
+                height: 570px;
+                max-height: none;
+                margin-bottom: 30px;
+            }
+            .bed,
+            .lanovka {
+                width: 35px !important;
+                height: 35px !important;
+            }
+            .lanovka {
+                margin-bottom: 4px !important;
+            }
+            .nadpis-icons {
+                padding-bottom: 10px;
+            }
+            .cable-padding {
+                margin-bottom: -8px !important;
+                padding-right: 0;
+                padding-left: 0;
+                margin-right: -10px;
+            }
+            .grid-cell-img {
+                overflow: hidden;
+                width: calc(100vw - 40px);
+                height: 216px;
+            }
+            .jadrna img {
+                top: -84px;
+                bottom: 0;
+                height: 300px;
+                min-width: 100%;
+                width: 400px;
+                position: relative;
+            }
+            .nela img {
+                top: -17px;
+                height: 330px;
+                min-width: 100%;
+                width: 360px;
+                position: relative;
+            }
+            .cerna-voda-1 img {
+                position: relative;
+                height: 216px;
+                width: 390px;
+                top: 0px;
+                min-width: 100%;
+            }
+            .cerna-voda-2 img {
+                position: relative;
+                height: 381px;
+                width: 390px;
+                top: -163px;
+                min-width: 100%;
+            }
+        }
+        
+        @media only screen and (max-width: 600px) and (min-width:517px) {
+            .grid-cell-text p {
+                font-size: 20px;
+            }
+            .grid-cell-text h2 {
+                font-size: 26px;
+            }
+        }
+        
+        @media only screen and (max-width: 516px) and (min-width:434px) {
+            .grid-cell-text p {
+                font-size: 18px;
+            }
+            .grid-cell-text h2 {
+                font-size: 24px;
+            }
+        }
+        
+        @media only screen and (max-width: 433px) and (min-width:402px) {
+            .grid-cell-text p {
+                font-size: 17px;
+            }
+            .grid-cell-text h2 {
+                font-size: 22px;
+            }
+        }
+        
+        @media only screen and (max-width: 401px) and (min-width:346px) {
+            .grid-cell-text p {
+                font-size: 16px;
+            }
+            .grid-cell-text h2 {
+                font-size: 21px;
+            }
+        }
+        
+        @media only screen and (max-width: 345px) and (min-width:300px) {
+            .grid-cell-text p {
+                font-size: 15px;
+            }
+            .grid-cell-text h2 {
+                font-size: 20px;
+            }
+        }
+        
+        @media only screen and (min-width:1024px) {
+            .lanovka {
+                padding-left: 60px;
+            }
+        }

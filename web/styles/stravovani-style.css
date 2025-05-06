@@ -1,0 +1,319 @@
+.activity-page {
+    padding-left: 13vw;
+    padding-right: 13vw;
+}
+
+.activity-page h1 {
+    color: #587095;
+    font-size: 80px;
+    font-weight: bold;
+    padding-bottom: 45px;
+    padding-top: 45px;
+    margin: 0;
+}
+
+.activity-page p {
+    margin: 0;
+    font-weight: 500;
+    font-size: 28px;
+    color: #587095;
+}
+
+.activity-grid {
+    margin-top: 45px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.btn-menu-show-more:hover {
+    cursor: pointer;
+}
+
+.activity-grid-cell {
+    margin-right: 50px;
+    position: relative;
+    overflow: hidden;
+    width: 615px;
+    min-height: 689px;
+    margin-bottom: 90px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    text-decoration: none;
+}
+
+.grid-cell-img {
+    height: 250px;
+    overflow: hidden;
+}
+
+.stravovani {
+    width: 615px;
+    height: 250px;
+}
+
+.penzion {
+    width: 800px;
+    height: 525px;
+    margin-top: -160px;
+    margin-left: -75px;
+}
+
+.chata {
+    width: 900px;
+    height: 570px;
+    margin-top: -130px;
+    margin-left: -150px;
+}
+
+.grid-cell-text {
+    color: #ffffff;
+    background-color: #C6A671;
+    width: 615px;
+    min-height: 337px;
+    top: 250;
+    padding-bottom: 10px;
+}
+
+.grid-cell-text h2 {
+    font-size: 34px;
+    font-weight: bold;
+    margin-top: 38px;
+    margin-left: 38px;
+    margin-bottom: 12px;
+}
+
+.grid-cell-text p {
+    color: #ffffff;
+    margin-left: 38px;
+    font-size: 24px;
+    margin-right: 37px;
+}
+
+.grid-cell-button {
+    background-color: #587095;
+    width: 214px;
+    height: 68px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+}
+
+.grid-cell-button a {
+    color: #ffffff;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.activity-grid {
+    justify-content: space-between;
+}
+
+.activity-grid-cell {
+    margin-right: 0;
+}
+
+@media only screen and (min-width: 1920px) {
+    .activity-page {
+        padding-left: 251px;
+        padding-right: 249px;
+    }
+    .activity-grid {
+        justify-content: space-between;
+    }
+}
+
+.btn-menu-show-more {
+    width: 214px;
+    height: 68px;
+    background-color: #587095;
+    transition: width ease-out 0.3s;
+    text-align: center;
+    font-weight: bolder;
+    height: 68px;
+    padding-left: 26px;
+    margin-top: 24px;
+    border: none;
+    display: flex;
+    align-items: center;
+    bottom: 0;
+}
+
+.activity-page .btn-menu-show-more p {
+    color: #ffffff;
+    font-size: 26px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.btn-menu-show-more:hover {
+    background-color: #c6a671;
+    width: 270px;
+}
+
+.navbar a.active-aktivity {
+    background-color: #c6a671 !important;
+    font-size: 24px;
+}
+
+.p-aktivity {
+    color: white;
+}
+
+.menu-arrow-show-more {
+    z-index: 30;
+    position: absolute;
+    right: -65px;
+}
+
+.rotatex {
+    transform: scaleX(1) !important;
+}
+
+.icon-show-more {
+    height: 45px !important;
+    width: 45px !important;
+    padding-top: 6px;
+}
+
+.show-more {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+@media only screen and (max-width: 600px) {
+    .activity-page h1 {
+        font-size: 36px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .activity-page {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .activity-page p {
+        font-size: 16px;
+    }
+    .grid-cell-text p {
+        font-size: 15px;
+        margin-right: 20px;
+    }
+    .grid-cell-text {
+        min-height: 0px;
+        width: auto;
+        padding-bottom: 50px;
+    }
+    .grid-cell-text h2 {
+        font-size: 21px;
+        margin-top: 38px;
+        padding-right: 20px;
+    }
+    .activity-grid-cell {
+        min-height: 0;
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    .activity-grid {
+        justify-content: center;
+    }
+    .grid-cell-img {
+        height: 200px;
+    }
+    .activity-grid {
+        margin-top: 20px;
+    }
+    .btn-menu-show-more {
+        height: 45px;
+        width: 160px;
+        padding-left: 24px;
+    }
+    .show-more,
+    .activity-page .btn-menu-show-more p {
+        font-size: 18px;
+    }
+    .btn-menu-show-more:hover {
+        width: 200px;
+    }
+    .icon-show-more {
+        height: 35px!important;
+        width: 35px !important;
+    }
+    .menu-arrow-show-more {
+        right: -50px;
+    }
+    .penzion {
+        width: 600px;
+        height: 393px;
+        margin-top: -115px;
+        margin-left: 0px;
+    }
+    .chata {
+        width: 600px;
+        height: 370px;
+        margin-top: -80px;
+        margin-left: 0;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .stravovani {
+        width: 500px;
+    }
+    .penzion {
+        width: 500px;
+        height: 330px;
+        margin-top: -80px;
+    }
+    .chata {
+        width: 500px;
+        height: 330px;
+        margin-top: -60px;
+        margin-left: -50px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .penzion {
+        margin-left: -55px;
+    }
+    .chata {
+        margin-left: -80px;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+    .activity-page h1 {
+        font-size: 50px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .activity-page p {
+        font-size: 1.5rem;
+    }
+    .grid-cell-text p {
+        font-size: 22px;
+    }
+    .grid-cell-text {
+        min-height: 280px;
+        width: auto;
+        padding-bottom: 50px;
+    }
+    .grid-cell-text h2 {
+        font-size: 30px;
+    }
+    .activity-grid-cell {
+        min-height: 0;
+    }
+    .activity-grid {
+        justify-content: center;
+    }
+}

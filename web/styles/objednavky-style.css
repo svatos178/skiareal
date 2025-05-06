@@ -1,0 +1,228 @@
+.header {
+    color: #587095 !important;
+    font-size: 80px;
+    font-weight: bold;
+    padding-bottom: 45px;
+    padding-top: 45px;
+    margin: 0;
+    padding-left: 13vw;
+}
+
+.text-info {
+    max-width: 1500px;
+    color: #587095;
+    font-size: 30px;
+    padding-left: 13vw;
+    padding-bottom: 35px;
+    display: flex;
+}
+
+.text-info2 {
+    max-width: 1500px;
+    color: #587095;
+    font-size: 30px;
+    padding-left: 13vw;
+    padding-bottom: 35px;
+}
+
+.login-box {
+    border-color: #587095;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 4px;
+    background: rgba(88, 112, 149, 0.03);
+    width: 560px;
+    height: 44px;
+    font-size: 22px;
+}
+
+.text-link {
+    font-size: 32px;
+    color: #587095;
+    padding-left: 13vw;
+    text-decoration: none;
+}
+
+.btn {
+    margin-left: 13vw;
+    width: 214px;
+    height: 68px;
+    background: #c6a671;
+    font-size: 26px;
+    font-weight: bold;
+    font-style: normal;
+    text-align: center;
+    color: #ffffff;
+    border: none;
+}
+
+input {
+    padding-top: 5px;
+}
+
+.register-underline {
+    text-decoration: underline;
+}
+
+.login-btn {
+    padding-top: 35px;
+}
+
+label {
+    padding-right: 20px;
+}
+
+.required {
+    font-size: 22px;
+    font-weight: bold;
+    font-style: normal;
+    text-align: left;
+    color: #c6a671;
+    opacity: 0.56;
+    margin-left: 13vw;
+}
+
+.heslo-znovu-box {
+    width: 442px;
+}
+
+.predcisli {
+    width: 108px;
+    margin-right: 17px;
+    margin-bottom: 30px;
+}
+
+.cislo {
+    width: 382px;
+}
+
+.dodaci-udaje {
+    color: #587095;
+    font-size: 36px;
+    margin-left: 13vw;
+}
+
+.ucet-info {
+    color: #587095;
+    font-size: 28px;
+    padding-left: 13vw;
+    padding-bottom: 35px;
+}
+
+.ucet-box {
+    margin-left: 13vw;
+    margin-bottom: 20px;
+}
+
+@media only screen and (min-width: 1920px) {
+    .header,
+    .text-info,
+    .text-info2,
+    .text-link {
+        padding-left: 251px;
+    }
+    .btn {
+        margin-left: 251px;
+    }
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th,
+td {
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    flex-grow: 1;
+}
+
+.table-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.nadpis {
+    border: none;
+    border-bottom: 4px solid #c6a671;
+    border-width: 100%;
+    margin: 10px 0;
+}
+
+.order-by {
+    display: inline;
+    margin-left: auto;
+    margin-right: 50px;
+}
+
+.vyhledat {
+    margin-left: 10px;
+}
+
+.zpet {
+    text-decoration: none;
+    text-decoration: underline;
+    text-decoration-color: #587095;
+}
+
+a:link {
+    color: #587095;
+}
+
+a:visited {
+    color: #587095;
+}
+
+.yellow {
+    color: #c6a671;
+    font-size: 130px;
+    position: absolute;
+    margin-left: -120px;
+    margin-top: -25px;
+}
+
+.obsah-objednavky {
+    padding-top: 80px;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.skipas-obsah {
+    font-size: 30px;
+    font-weight: normal;
+}
+
+.th-obsah {
+    width: 600px;
+}
+
+.skipas-obsah2 {
+    font-size: 30px;
+    font-weight: normal;
+    width: fit-content;
+}
+
+.th-box {
+    display: flex;
+    align-items: center;
+}
+
+.box {
+    border: 1px solid #587095;
+    border-radius: 5px;
+    padding: 5px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+}
+
+.detail img {
+    width: 30px;
+    height: 30px;
+}

@@ -1,0 +1,76 @@
+<link rel="stylesheet" href="styles/login-style.css">
+<script type="text/javascript">
+    document.title = "Nastavení účtu";
+</script>
+<section>
+    <h1 class="header">Nastavení účtu
+    </h1>
+
+    <form method="post" action="nastaveni-uctu.php">
+
+        <div class="text-info">
+            <label for="email"> Přihlašovací email:
+
+          </label>
+            <input type="email" class="login-box" name="login-email">
+
+        </div>
+
+
+        <div class="text-info">
+            <label for="email"> Kontaktní email:
+
+
+          </label>
+            <input type="email" class="login-box" name="kontakt-email">
+
+        </div>
+
+        <div class="text-info">
+            <label for="telefon">Tel.číslo:</label>
+            <input type="text" class="login-box predcisli" name="predcisli" placeholder="+420">
+            <input type="text" class="login-box cislo" name="cislo">
+
+        </div>
+        <div> <button type="submit" name="zmenit-heslo-btn" class="btn">ZMĚNIT HESLO</button> </div>
+
+
+        <section>
+            <p class="dodaci-udaje">Dodací údaje</p>
+            <div class="ucet-info">
+                <label for="jmeno-prijmeni">Jméno a příjmení
+                </label>
+            </div>
+            <div class="ucet-box"> <input type="text" class="login-box" name="jmeno-prijmeni"></div>
+            <div class="ucet-info">
+                <label for="ulice">Ulice
+                </label>
+            </div>
+            <div class="ucet-box"> <input type="text" class="login-box" name="ulice"></div>
+            <div class="ucet-info">
+                <label for="hespsclo">PSČ </label> <label for="mesto">MĚSTO</label>
+
+            </div>
+            <div class="ucet-box"> <input type="text" class="login-box" name="psc"> <input type="text" class="login-box" name="mesto"></div>
+
+
+
+            <div class="ucet-info">
+                <label for="cislo-bu">Číslo bankovního účtu
+
+                </label>
+                <div class="ucet-box"> <input type="text" class="login-box" name="cislo-bu"> <input type="text" class="login-box" name="kod-banky"> </div>
+                <label for="kod-banky">Kód banky
+                </label>
+
+            </div>
+
+
+
+            <div> <button type="submit" name="save" class="btn">ULOŽIT</button> </div>
+
+
+        </section>
+    </form>
+
+</section>

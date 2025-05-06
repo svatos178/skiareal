@@ -1,0 +1,116 @@
+.header {
+    color: #587095;
+    font-size: 80px;
+    font-weight: bold;
+    padding-bottom: 45px;
+    padding-top: 45px;
+    margin: 0;
+    padding-left: 13vw;
+}
+
+.text-info {
+    color: #C6A671;
+    font-size: 36px;
+    padding-left: 13vw;
+    padding-bottom: 35px;
+}
+
+.login-box {
+    border-color: #587095;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 4px;
+    background: rgba(88, 112, 149, 0.03);
+    width: 560px;
+    height: 44px;
+    font-size: 22px;
+}
+
+.text-link {
+    font-size: 32px;
+    color: #587095;
+    padding-left: 13vw;
+    text-decoration: none;
+}
+
+.btn {
+    margin-left: 13vw;
+    width: 214px;
+    height: 68px;
+    background: #c6a671;
+    font-size: 26px;
+    font-weight: bold;
+    font-style: normal;
+    text-align: center;
+    color: #ffffff;
+    border: none;
+}
+
+input {
+    padding-top: 5px;
+}
+
+.register-underline {
+    text-decoration: underline;
+}
+
+.login-btn {
+    padding-top: 35px;
+}
+
+label {
+    padding-right: 20px;
+}
+
+.required {
+    font-size: 22px;
+    font-weight: bold;
+    font-style: normal;
+    text-align: left;
+    color: #c6a671;
+    opacity: 0.56;
+    margin-left: 13vw;
+}
+
+.heslo-znovu-box {
+    width: 442px;
+}
+
+.predcisli {
+    width: 108px;
+    margin-right: 17px;
+    margin-bottom: 30px;
+}
+
+.cislo {
+    width: 382px;
+}
+
+.dodaci-udaje {
+    color: #587095;
+    font-size: 36px;
+    margin-left: 13vw;
+}
+
+.ucet-info {
+    color: #587095;
+    font-size: 28px;
+    padding-left: 13vw;
+    padding-bottom: 35px;
+}
+
+.ucet-box {
+    margin-left: 13vw;
+    margin-bottom: 20px;
+}
+
+@media only screen and (min-width: 1920px) {
+    .header,
+    .text-info,
+    .text-link {
+        padding-left: 251px;
+    }
+    .btn {
+        margin-left: 251px;
+    }
+}

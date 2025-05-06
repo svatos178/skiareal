@@ -1,0 +1,378 @@
+<link rel="stylesheet" href="styles/long-footer-style.css">
+
+<section class="about">
+    <div class="welcome">
+        <h1>Vítejte!</h1>
+        <p>Skiareál Orlické Záhoří poskytuje ideální prostředí pro rodiny s dětmi a všechny, kteří si užívají příjemné lyžování. Sjezdovka je dostatečně široká, a její délka dosahuje 1,7 kilometru, což ji činí nejdelší v celém pohoří Orlické hory. Díky modernímu
+            systému zasněžování je zajištěno, že na sjezdovce bude dostatek sněhu téměř v jakémkoli počasí. K tomu všemu je k dispozici zdarma parkoviště přímo u lanovky, a pokud budete potřebovat odpočinek a občerstvení, můžete se přímo u lanovky posílit.
+            Pro rodiny s dětmi nebo začínající lyžaře je k dispozici lyžařská škola a půjčovna vybavení.
+        </p>
+    </div>
+    <div class="activities">
+        <h1>Aktivity</h1>
+        <a class="aktivity-link" href="bezecky-okruh.php"> Běžecký okruh <img
+                src="ICONS/arrow-right-colored.svg"></a>
+        <a class="aktivity-link" href="ski-school.php"> Lyžařská škola <img
+                src="ICONS/arrow-right-colored.svg"></a>
+        <a class="aktivity-link" href="bezecke-trasy.php"> Běžecké trasy <img
+                src="ICONS/arrow-right-colored.svg"></a>
+        <a class="aktivity-link" href="stravovani.php"> Stravování <img
+                src="ICONS/arrow-right-colored.svg"></a>
+        <!--   <a class="aktivity-link" href="snowpark.php"> Snowpark <img src="ICONS/arrow-right-colored.svg"></a>-->
+        <a class="aktivity-link" href="pujcovna.php"> Půjčovna <img src="ICONS/arrow-right-colored.svg"></a>
+        <a class="aktivity-link" href="ubytovani.php"> Ubytování <img src="ICONS/arrow-right-colored.svg"></a>
+
+    </div>
+</section>
+
+<section class="switch-menu">
+    <div class="menu1">
+        <div class="transition-image" id="transition-image">
+            <img src="IMG/upravene/jidlo.jpg" class="img-transition">
+
+        </div>
+        <div class="menu-text">
+            <div class="menu-buttons">
+                <img onclick="previous()" class="zindex arrow-img" src="ICONS/arrow-right-colored-light.svg">
+                <p id="cislo-slidu" class="menu-first-number">01</p>
+                <p id="pocet-slidu">/06</p>
+                <img onclick="next()" class="rotatex arrow-img" src="ICONS/arrow-right-colored-light.svg" id="nextSlide">
+            </div>
+            <div id="headlines">
+                <h2>Občerstvení</h2>
+            </div>
+            <p id="slide-show">Rychlé občerstvení přímo pod sjezdovkou</p>
+
+        </div>
+        <a id="odkaz"> <button class="btn-menu-show-more">
+                <p class="show-more"> ZJISTIT VÍCE <span class="menu-arrow-show-more"> <img
+                            class="rotatex icon-show-more" src="ICONS/arrow-right-white.svg"></span></p>
+            </button> </a>
+    </div>
+</section>
+
+<script>
+    const images = [
+        "IMG/upravene/jidlo.jpg",
+        "IMG/ski-school-guy.jpg",
+        "IMG/upravene/chata.jpg",
+        "IMG/upravene/snowboardy.jpg",
+        "IMG/upravene/trat.jpg",
+        "IMG/2021-02-02.jpg"
+
+    ];
+
+    const headlines = [
+        "Občerstvení",
+        "Lyžařská škola",
+        "Ubytování v okolí",
+        "Půjčovna",
+        "Běžecké tratě",
+        "Běžecký okruh"
+    ];
+    const texts = [
+        "Rychlé občerstvení přímo pod sjezdovkou",
+        "Profesionální instruktoři pro vás i vaše děti",
+        "Stylové ubytování v roubených chalupách",
+        "Chybí vám vybavení? Nezoufejte!",
+        "Orlickým Záhořím vedou udržované běžkařské tratě",
+        "4,5 km dlouhý osvětlený okruh s parkováním"
+    ];
+
+    const slide = [
+        "01",
+        "02",
+        "03",
+        "04",
+        "05",
+        "06"
+    ]
+
+    const classImg = [
+        "classImg1",
+        "classImg2",
+        "classImg3",
+        "classImg4",
+        "classImg5",
+        "classImg6"
+    ]
+
+    const link = [
+        "stravovani.php",
+        "ski-school.php",
+        "ubytovani.php",
+        "pujcovna.php",
+        "bezecke-trasy.php",
+        "bezecky-okruh.php"
+    ]
+    let currentIndex = 0;
+    let intervalId;
+
+
+
+    function next() {
+        currentIndex++;
+        if (currentIndex >= images.length) currentIndex = 0;
+        updateContent();
+        clearInterval(intervalId);
+        intervalId = setInterval(next, 60000);
+
+    }
+
+    function previous() {
+        currentIndex--;
+        if (currentIndex < 0) currentIndex = images.length - 1;
+        updateContent();
+        clearInterval(intervalId);
+        intervalId = setInterval(next, 60000);
+
+
+    }
+
+    function updateContent() {
+
+        document.getElementById("transition-image").innerHTML = "<img src='" + images[currentIndex] + "' class='" + classImg[currentIndex] + "'>" + document.getElementById("transition-image").innerHTML;
+        let curr_img = document.getElementById("transition-image").querySelectorAll("img")[1];
+
+
+        setTimeout(() => {
+            curr_img.classList.add("visible");
+        }, 0);
+
+        setTimeout(() => {
+            document.getElementById("transition-image").innerHTML = "<img src='" + images[currentIndex] + "' class='" + classImg[currentIndex] + "'>";
+        }, 250);
+
+
+
+        document.getElementById("headlines").innerHTML = "<h2>" + headlines[currentIndex] + "</h2>" + document.getElementById("headlines").innerHTML;
+        let curr_head = document.getElementById("headlines").querySelectorAll("h2")[1];
+
+
+        setTimeout(() => {
+            curr_head.classList.add("visible");
+        }, 0);
+
+        setTimeout(() => {
+            document.getElementById("headlines").innerHTML =
+                "<h2>" + headlines[currentIndex] + "</h2>";
+        }, 250);
+
+
+
+        document.getElementById("slide-show").innerHTML = "<p>" + texts[currentIndex] + "</p>" + document.getElementById("slide-show").innerHTML;
+        let curr_text = document.getElementById("slide-show").querySelectorAll("p")[1];
+
+
+        setTimeout(() => {
+            curr_text.classList.add("visible");
+        }, 0);
+
+        setTimeout(() => {
+            document.getElementById("slide-show").innerHTML = "<p>" + texts[currentIndex] + "</p>";
+        }, 250);
+
+
+        document.getElementById("cislo-slidu").innerHTML =
+            "<p>" + slide[currentIndex] + "</p>";
+
+
+        document.getElementById("odkaz").href = link[currentIndex];
+    }
+    updateContent();
+
+    intervalId = setInterval(next, 60000);
+
+    const arrowImages = document.querySelectorAll('.arrow-img');
+
+    arrowImages.forEach((image) => {
+        const originalSrc = image.src;
+        const hoverSrc = "ICONS/arrow-right-white.svg";
+
+
+        image.addEventListener('mouseover', () => {
+            image.src = hoverSrc;
+        });
+
+        image.addEventListener('mouseout', () => {
+            image.src = originalSrc;
+        });
+    });
+</script>
+
+<section>
+    <div class="block"></div>
+    <div class="center">
+
+        <div class="sky-time">
+            <div class="provozni-doba">
+                <p>Provozní doba</p>
+            </div>
+            <div class="blue-white">
+                <div class="white">
+
+                    <p class="px70">Denní lyžování</p>
+                </div>
+                <div class="blue">
+                    <p class="px55">Pondělí – Neděle</p>
+                    <p class="px55"> 8:30 – 16:00 hod.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <p class="kontakt-title skioz-text-mapa">Mapa SKIOZ</p>
+    <div class="okruh-img">
+        <img class="provozni-doba areal" src="IMG/areal.jpg"> </div>
+</section>
+
+
+<section class="cenik">
+    <div class="cenik-column">
+        <div class="cenik-table-head">
+            <h1>Ceník</h1>
+        </div>
+        <div class="cenik-item">
+            <span class="cenik-doba-main">1 jízda</span>
+            <span class="cenik-doba-sub">(nahoru/dolů)</span>
+        </div>
+        <div class="cenik-item">
+            <span class="cenik-doba-main">3h</span>
+
+        </div>
+        <div class="cenik-item">
+            <span class="cenik-doba-main">4h</span>
+
+        </div>
+        <div class="cenik-item">
+            <span class="cenik-doba-main">Celodenní </span>
+
+        </div>
+        <div class="cenik-item">
+            <span class="cenik-doba-main">2/3 dnů</span>
+        </div>
+        <div class="cenik-item">
+            <span class="cenik-doba-main">3/4 dnů</span>
+        </div>
+        <div class="cenik-item">
+            <span class="cenik-doba-main">10h ze sezóny</span>
+        </div>
+    </div>
+    <div class="cenik-column">
+        <div class="cenik-table-head">
+            <h2>Dospělí</h2>
+        </div>
+        <div class="cenik-item">
+            <span class="cenik-cena">150 Kč</span>
+        </div>
+        <div class="cenik-item">
+            <span class="cenik-cena">450 Kč</span>
+        </div>
+        <div class="cenik-item">
+            <span class="cenik-cena">550 Kč</span>
+        </div>
+        <div class="cenik-item">
+            <span class="cenik-cena">750 Kč</span>
+        </div>
+        <div class="cenik-item">
+            <span class="cenik-cena">1 450 Kč</span>
+        </div>
+        <div class="cenik-item">
+            <span class="cenik-cena">2 150 Kč</span>
+        </div>
+        <div class="cenik-item">
+            <span class="cenik-cena">2 150 Kč</span>
+        </div>
+    </div>
+    <div class="cenik-column">
+        <div class="cenik-table-head">
+            <h2>Dítě</h2>
+            <span>(Do 140 cm / Senioři)</span>
+        </div>
+        <div class="cenik-item">
+            <span class="cenik-cena">150 Kč</span>
+        </div>
+        <div class="cenik-item">
+            <span class="cenik-cena">350 Kč</span>
+        </div>
+        <div class="cenik-item">
+            <span class="cenik-cena">400 Kč</span>
+        </div>
+        <div class="cenik-item">
+            <span class="cenik-cena">560 Kč</span>
+        </div>
+        <div class="cenik-item">
+            <span class="cenik-cena">1 100 Kč</span>
+        </div>
+        <div class="cenik-item">
+            <span class="cenik-cena">1 600 Kč</span>
+        </div>
+        <div class="cenik-item">
+            <span class="cenik-cena">1 600 Kč</span>
+        </div>
+    </div>
+</section>
+
+<section class="cenik-footer">
+    <span class="cenik-footer-text">*Záloha na čipovou kartu = 100 Kč</span>
+
+    <div class="cenik-footer-button">
+        <span class="cenik-footer-text cenik-footer-text2"><a href="skioz_smlouva.pdf" target="_blank">Smluvní přepravní podmínky</a></span>
+        <!--   <a href="#">KOUPIT TEĎ</a>-->
+    </div>
+</section>
+
+<footer>
+    <p class="kontakt-title">Kontakt</p>
+    <div class="footer">
+        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5098.338344915392!2d16.4547473!3d50.2887699!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470e0d94f29c17bd%3A0xae2bf6866f1785cb!2zU2tpYXJlw6FsIE9ybGlja8OpIFrDoWhvxZnDrSDigJMgU0tJT1o!5e0!3m2!1scs!2scz!4v1703628178763!5m2!1scs!2scz"
+            height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <section class="ft-main">
+        <div class="ft-main-item">
+            <img class="footer-logo" src="IMG/logoweb05.png" alt="logo-orlice-zahori">
+        </div>
+        <div class="ft-main-item">
+
+            <ul class="footer-list">
+                <li>
+                    <p class="footer-text-info">517 64 Orlické Záhoří
+                    </p>
+                </li>
+                <li>
+                    <p class="footer-text-info">info@skioz.cz
+                    </p>
+                </li>
+                <li>
+                    <p class="footer-text-info">50.286750N, 16.452338E
+                    </p>
+                </li>
+                <!--   <li>
+                    <p class="footer-tel">+420 123 456 789</p>
+                </li>-->
+            </ul>
+        </div>
+
+        <div class="ft-main-item logos">
+
+            <a href="https://www.facebook.com/profile.php?id=100063769462125"><img class="footer-icon" src="facebook.svg" alt="facebook-icon"></a>
+
+
+            <a href="https://www.instagram.com/skiarealorlickezahori/"><img class="footer-icon" src="instagram.svg" alt="instagram-icon"></a>
+
+
+        </div>
+
+    </section>
+
+
+    <section>
+
+
+        <p class="copyright" id="kontakt">&copy; 2023 | Privacy Policy</p>
+
+    </section>
+</footer>
+</div>
+</body>
+
+</html>

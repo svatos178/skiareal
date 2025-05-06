@@ -1,0 +1,39 @@
+<link rel="stylesheet" href="styles/login-style.css">
+<script type="text/javascript">
+    document.title = "Registrace";
+</script>
+<section>
+    <h1 class="header" id="reg">Registrace
+    </h1>
+
+    <form method="post" action="register.php">
+
+        <div class="text-info">
+            <label for="email"> Email:
+          </label>
+            <input type="email" class="login-box" name="email" required>
+            <?php echo $email_exists; ?>
+        </div>
+        <div class="text-info">
+            <label for="heslo">Heslo:</label>
+            <input type="text" class="login-box" name="heslo" required>
+
+        </div>
+        <div class="text-info">
+            <label for="heslo-znovu">Heslo znovu:</label>
+            <input type="text" class="login-box heslo-znovu-box" name="heslo-znovu" required>
+            <?php echo $heslo_err; ?>
+        </div>
+
+        <div class="text-info">
+            <label for="telefon">Tel.číslo:</label>
+            <input type="number" class="login-box predcisli" name="predcisli" placeholder="+420" min="1" required>
+            <input type="number" class="login-box cislo" name="cislo" min="1" required>
+        </div>
+
+        <div> <button type="submit" name="login" class="btn">REGISTROVAT</button> </div>
+        <p class="required">*Povinné</p>
+        <p><a class="text-link" href="login.php">Už máte učet? <span class="register-underline">PŘIHLASTE SE ZDE</span></a></p>
+    </form>
+
+</section>

@@ -1,0 +1,613 @@
+        .header {
+            color: #587095;
+            font-size: 80px;
+            font-weight: bold;
+            padding-bottom: 45px;
+            padding-top: 45px;
+            margin: 0;
+            padding-left: 13vw;
+        }
+        
+        .info {
+            margin: 0;
+            font-weight: 500;
+            font-size: 28px;
+            color: #587095;
+            padding-left: 13vw;
+            padding-right: 13vw;
+        }
+        
+        .center {
+            text-align: center;
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .icon {
+            height: 60px;
+            position: relative;
+            margin-left: 20px;
+            margin-bottom: -10px;
+        }
+        
+        .center p {
+            margin: 0;
+        }
+        
+        .white {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            background-color: white;
+            color: #587095;
+            width: 709px;
+            height: 282px;
+        }
+        
+        .provozni-doba p {
+            padding-left: 13vw;
+            padding-right: 13vw;
+        }
+        
+        .navbar a.active-aktivity {
+            background-color: #c6a671 !important;
+            font-size: 24px;
+        }
+        
+        .p-aktivity {
+            color: white;
+        }
+        
+        .blue {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            background-color: #C6A671;
+            color: white;
+            width: 709px;
+            height: 282px;
+        }
+        
+        .blue-white {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        
+        .sky-time {
+            display: grid;
+            flex-direction: column;
+            flex-wrap: wrap;
+        }
+        
+        .provozni-doba {
+            width: 100%;
+            font-size: 70px;
+            color: #587095;
+            font-weight: bold;
+            padding-bottom: 46px;
+            text-align: left;
+            padding-top: 122px;
+        }
+        
+        @media only screen and (max-width: 1437px) {
+            .provozni-doba {
+                padding-bottom: 15px;
+            }
+        }
+        
+        @media only screen and (min-width: 1920px) {
+            .icon {
+                margin-left: 250px;
+            }
+            .header {
+                padding-left: 251px;
+            }
+            .info,
+            .provozni-doba p {
+                padding-left: 251px;
+                padding-right: 249px;
+            }
+            .sky-time {
+                display: block;
+            }
+            .blue-white {
+                justify-content: start;
+            }
+        }
+        
+        .white {
+            width: 709px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            background-color: white;
+            color: #587095;
+            height: 282px;
+        }
+        
+        .blue {
+            width: 709px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            background-color: #C6A671;
+            color: white;
+            height: 282px;
+        }
+        
+        @media only screen and (max-width: 709px) {
+            .blue {
+                width: 100%;
+            }
+            .white {
+                width: 100%;
+            }
+        }
+        
+        .blue-white {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        
+        .sky-time {
+            display: grid;
+            flex-direction: column;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        
+        .provozni-doba {
+            width: 100%;
+            font-size: 70px;
+            color: #587095;
+            font-weight: bold;
+            padding-bottom: 46px;
+            text-align: left;
+            padding-top: 122px;
+        }
+        
+        @media only screen and (max-width: 1417px) {
+            .provozni-doba {
+                padding-bottom: 15px;
+                padding-top: 15px;
+            }
+        }
+        
+        .center {
+            text-align: center;
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .center p {
+            margin: 0;
+        }
+        
+        .recenze-p {
+            padding-bottom: 80px;
+        }
+        
+        .px55 {
+            font-size: 55px;
+            margin-top: 11%;
+            font-weight: 600;
+            text-align: center;
+        }
+        
+        .blue-white,
+        .sky-time {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        
+        @media only screen and (max-width: 600px) {
+            .header,
+            .info,
+            .provozni-doba,
+            .px55,
+            .blue,
+            .white {
+                font-size: 1.25rem;
+            }
+            .blue,
+            .white {
+                width: 100%;
+                height: auto;
+            }
+            .sky-time {
+                flex-direction: column;
+            }
+        }
+        
+        @media only screen and (min-width: 601px) and (max-width: 1024px) {
+            .info,
+            .blue,
+            .white {
+                font-size: 1.5rem;
+            }
+            .blue,
+            .white {
+                height: 150px;
+                width: 100%;
+            }
+            .blue-white {
+                justify-content: start;
+                padding-left: 13vw;
+                padding-right: 13vw;
+            }
+            .header,
+            .provozni-doba {
+                font-size: 56px;
+            }
+            .px55 {
+                font-size: 2.5rem;
+            }
+            .provozni-doba {
+                padding-top: 45px;
+                padding-bottom: 45px;
+            }
+        }
+        
+        @media only screen and (max-width: 1300px) {
+            .blue-white {
+                justify-content: start;
+                padding-left: 13vw;
+                padding-right: 13vw;
+            }
+            .blue,
+            .white {
+                width: 100%;
+            }
+            .sky-time {
+                display: block;
+            }
+        }
+        
+        @media only screen and (min-width: 1301px) and (max-width:1920px) {
+            .sky-time {
+                justify-content: start;
+            }
+            .blue,
+            .white {
+                width: 36.927vw;
+            }
+        }
+        
+        @media only screen and (max-width: 1500px) and (min-width: 1300px) {
+            .px55 {
+                font-size: 50px;
+            }
+        }
+        
+        @media only screen and (max-width: 600px) {
+            .icon {
+                height: 40px;
+            }
+            .header {
+                font-size: 36px;
+                padding-left: 20px;
+                padding-right: 20px;
+                padding-bottom: 20px;
+                padding-top: 15px;
+            }
+            .info {
+                font-size: 16px;
+                padding-left: 20px;
+                padding-right: 20px;
+            }
+            .provozni-doba {
+                font-size: 36px;
+                text-align: left;
+            }
+            .px55 {
+                font-size: 25px;
+            }
+            .blue {
+                height: 100px;
+            }
+            .white {
+                height: 100px;
+            }
+            .provozni-doba p {
+                padding-left: 0;
+                padding-right: 0;
+            }
+            .blue-white {
+                padding-left: 0px;
+                padding-right: 0px;
+            }
+        }
+        
+        @media only screen and (min-width: 1920px) {
+            .cenik {
+                padding-left: 40px;
+            }
+        }
+        
+        .cenik {
+            display: grid;
+            grid-template-columns: 55% 22.5% 22.5%;
+            margin-left: 13vh;
+            margin-right: 13vh;
+            padding-top: 50px;
+        }
+        
+        .cenik .cenik-column {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        
+        .cenik .cenik-column .cenik-table-head {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            color: #587095;
+            border-bottom: 5px solid #c6a671;
+            height: 86px;
+        }
+        
+        .cenik .cenik-column .cenik-table-head h1 {
+            padding-bottom: 10px;
+            font-size: 70px;
+            margin: 0;
+        }
+        
+        .cenik .cenik-column .cenik-table-head h2 {
+            padding-bottom: 10px;
+            font-size: 35px;
+            margin: 0;
+        }
+        
+        .cenik .cenik-column .cenik-item {
+            height: 91px;
+            display: flex;
+            align-items: flex-start;
+            flex-direction: column;
+            justify-content: center;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            padding-right: 15px;
+        }
+        
+        .cenik .cenik-column .cenik-doba-main {
+            font-size: 37px;
+            font-weight: bold;
+            color: #587095;
+        }
+        
+        .cenik .cenik-column .cenik-doba-sub {
+            font-size: 37px;
+            font-weight: 500;
+            color: #c6a671;
+        }
+        
+        .cenik .cenik-column .cenik-cena {
+            font-size: 38px;
+            font-weight: bold;
+            color: #c6a671;
+        }
+        
+        .cenik-footer-text {
+            height: 68px;
+            font-size: 37px;
+            color: #587095;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+            border-top: 5px solid #c6a671;
+            padding-top: 20px;
+            width: 50%;
+        }
+        
+        .cenik-footer-button {
+            height: 68px;
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            border-top: 5px solid #c6a671;
+            padding-top: 20px;
+            width: 50%;
+        }
+        
+        .cenik-footer-empty {
+            border-top: 5px solid #c6a671;
+        }
+        
+        .cenik-footer-button a {
+            text-align: center;
+            background-color: #c6a671;
+            color: white;
+            font-size: 26px;
+            font-weight: bolder;
+            text-decoration: none;
+            padding: 25px 25px 18px 18px;
+        }
+        
+        .cenik-footer {
+            display: flex;
+            margin-left: 13vh;
+            margin-right: 13vh;
+        }
+        
+        .cenik .cenik-column .cenik-table-head span {
+            font-size: 20px;
+        }
+        
+        @media only screen and (max-width: 1550px) {
+            .cenik {
+                display: grid;
+                grid-template-columns: 46% 27% 27%;
+                margin-left: 10vh;
+                margin-right: 10vh;
+                padding-top: 50px;
+            }
+            .cenik-footer {
+                display: flex;
+                margin-left: 10vh;
+                margin-right: 10vh;
+            }
+            .cenik .cenik-column .cenik-table-head h1 {
+                font-size: 35px;
+            }
+            .cenik .cenik-column .cenik-table-head h2 {
+                font-size: 35px;
+            }
+            .cenik .cenik-column .cenik-table-head span {
+                font-size: 18px;
+            }
+            .cenik .cenik-column .cenik-doba-main {
+                font-size: 30px;
+            }
+            .cenik .cenik-column .cenik-doba-sub {
+                font-size: 24px;
+            }
+            .cenik .cenik-column .cenik-cena {
+                font-size: 30px;
+            }
+        }
+        
+        @media only screen and (max-width: 1300px) {
+            .icon {
+                margin-left: -30px;
+            }
+        }
+        
+        .bw2 {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-content: center;
+        }
+        
+        @media only screen and (max-width: 1025px) {
+            .cenik .cenik-column .cenik-table-head h1 {
+                font-size: 30px;
+            }
+            .cenik .cenik-column .cenik-table-head h2 {
+                font-size: 30px;
+            }
+            .cenik .cenik-column .cenik-table-head span {
+                font-size: 16px;
+            }
+            .cenik .cenik-column .cenik-doba-main {
+                font-size: 26px;
+            }
+            .cenik .cenik-column .cenik-doba-sub {
+                font-size: 18px;
+            }
+            .cenik .cenik-column .cenik-cena {
+                font-size: 26px;
+            }
+            .cenik .cenik-column .cenik-item {
+                height: 60px;
+            }
+            .cenik .cenik-column .cenik-table-head {
+                height: 75px;
+            }
+            .cenik-footer-text {
+                font-size: 24px;
+            }
+            .cenik {
+                margin-left: 5vh;
+                margin-right: 5vh;
+            }
+        }
+        
+        @media only screen and (max-width: 800px) {
+            .cenik {
+                margin-left: 10px;
+                margin-right: 10px;
+            }
+            .cenik .cenik-column .cenik-table-head h1 {
+                font-size: 24px;
+            }
+            .cenik .cenik-column .cenik-table-head h2 {
+                font-size: 24px;
+            }
+            .cenik .cenik-column .cenik-table-head span {
+                font-size: 12px;
+            }
+            .cenik .cenik-column .cenik-doba-main {
+                font-size: 20px;
+            }
+            .cenik .cenik-column .cenik-doba-sub {
+                font-size: 16px;
+            }
+            .cenik .cenik-column .cenik-cena {
+                font-size: 20px;
+            }
+            .cenik .cenik-column .cenik-item {
+                height: 50px;
+                padding-top: 10px;
+                padding-bottom: 10px;
+            }
+            .cenik .cenik-column .cenik-table-head {
+                height: 70px;
+            }
+            .cenik-footer-text {
+                font-size: 16px;
+                height: 50px;
+            }
+            .cenik-footer-button a {
+                font-size: 20px;
+            }
+            .cenik-footer-button {
+                height: 50px;
+            }
+            .cenik-footer {
+                margin-left: 10px;
+                margin-right: 10px;
+            }
+        }
+        
+        @media only screen and (max-width: 580px) {
+            .cenik-footer-button a {
+                padding: 20px 20px 15px 15px;
+            }
+        }
+        
+        .px55bw {
+            padding-top: 20px;
+        }
+        
+        .px55bw2 {
+            padding-top: 20px;
+        }
+        
+        @media only screen and (max-width: 580px) {
+            .icon {
+                margin-left: -10px;
+            }
+            .cenik .cenik-column .cenik-doba-main {
+                font-size: 16px;
+            }
+            .cenik .cenik-column .cenik-doba-main {
+                font-size: 14px;
+            }
+            .cenik .cenik-column .cenik-cena {
+                font-size: 16px;
+            }
+            .cenik .cenik-column .cenik-table-head h2 {
+                font-size: 20px;
+            }
+            .cenik .cenik-column .cenik-item {
+                height: 60px;
+            }
+            .cenik-footer-button a {
+                font-size: 18px;
+            }
+        }
+        
+        @media only screen and (max-width: 370px) {
+            .cenik .cenik-column .cenik-item {
+                height: 80px;
+            }
+        }
+        
+        .cenik-footer {
+            border-top: 5px solid #c6a671;
+        }
